@@ -1,4 +1,6 @@
-﻿namespace SystemWypozyczalniGier.Enumerations
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+
+namespace SystemWypozyczalniGier.Enumerations
 {
     /// <summary>
     /// Role użytkowników w systemie

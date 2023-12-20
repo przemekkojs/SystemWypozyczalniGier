@@ -1,0 +1,53 @@
+@model IEnumerable<SystemWypozyczalniGier.Tables.Rental>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Account)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Account.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Game.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalTime)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-accountEmail="@item.AccountEmail" asp-route-gameId="@item.GameId">Edit</a> |
+                <a asp-action="Details" asp-route-accountEmail="@item.AccountEmail" asp-route-gameId="@item.GameId">Details</a> |
+                <a asp-action="Delete" asp-route-accountEmail="@item.AccountEmail" asp-route-gameId="@item.GameId">Delete</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
