@@ -21,7 +21,7 @@ namespace SystemWypozyczalniGier.Tables
         public virtual Game? Game { get; set; }
 
         [Required]
-        [Range(0, 10)]
+        [Range(1, 5)]
         public int Mark { get; set; }
 
         [MaxLength(2000)]

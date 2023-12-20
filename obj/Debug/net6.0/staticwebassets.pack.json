@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets/SystemWypozyczalniGier.bundle.scp.css"
     },
     {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_star.png",
+      "PackagePath": "staticwebassets/images/empty_star.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/full_star.png",
+      "PackagePath": "staticwebassets/images/full_star.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/half_star.png",
+      "PackagePath": "staticwebassets/images/half_star.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/no_image.png",
+      "PackagePath": "staticwebassets/images/no_image.png"
     },
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/site.js",
@@ -243,6 +263,14 @@
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
+      "PackagePath": "staticwebassets/uploads/minecraft_1.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_2.png",
+      "PackagePath": "staticwebassets/uploads/minecraft_2.png"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.SystemWypozyczalniGier.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -10,6 +10,10 @@ namespace SystemWypozyczalniGier.Tables
     /// </summary>
     public class Game
     {
+        //TODO: Od 1 do 4 zdjęć powinno być wgrywanych przy dodawaniu gry w GamesControllerze
+        public List<string> PhotoFileNames =>
+            new() { "minecraft_1.png", "minecraft_2.png"};
+
         [Key]
         [Required]
         [NotNull]
@@ -45,7 +49,6 @@ namespace SystemWypozyczalniGier.Tables
 
         [Required]
         public Pegi Pegi { get; set; }
-
 
         [InverseProperty(nameof(Review.Game))]
         public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();

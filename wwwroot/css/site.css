@@ -1,5 +1,4 @@
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+/* BASIC*/
 
 a.navbar-brand {
     white-space: normal;
@@ -82,3 +81,120 @@ body {
     width: 100px;
     height: 100px;
 }
+
+/* SHOP DETAILS*/
+
+/* General */
+.no-margin-and-padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.main-layout {
+    display: flex;
+    flex-flow: row;
+    gap: 35px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+/* Images Section */
+div.images-section {
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+    width: 345px;
+    height: 513px;
+}
+div.images-section div.row {
+    display: flex;
+    flex-flow: row;
+    gap: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.main-image {
+    width: 344px;
+    height: 460px;
+    padding: 0px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mini-image {
+    width: 80px;
+    height: 45px;
+    padding: 0px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Game Section */
+div.game-section {
+    display: flex;
+    flex-flow: column;
+    gap: 35px;
+}
+div.top-game-section {
+    display: flex;
+    flex-flow: row;
+    gap: 35px;
+    width: fit-content;
+}
+div.bottom-game-section {
+    width: 100%;
+}
+
+div.info {
+    height: 160px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+div.info div.row {
+    display: flex;
+    flex-flow: row;
+    gap: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+a.reviews-link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.star{
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+}
+
+.buy-tile {
+    width: 220px;
+    height: 160px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+    margin: 0px;
+}
+.buy-tile-text {
+    margin: 0px 0px 5px 0px;
+}
+.buy-tile-button {
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    background-color: blue;
+}
+
+div.bottom-game-section p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+

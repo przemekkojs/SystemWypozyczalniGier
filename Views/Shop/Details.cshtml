@@ -1,0 +1,70 @@
+﻿@model SystemWypozyczalniGier.Tables.Game
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="main-layout">
+    <div class="images-section">
+        <img src="~/uploads/@Model.PhotoFileNames[0]" class="main-image">
+        <div class="row">
+            @foreach (var photoFileName in Model.PhotoFileNames)
+            {
+                <img src="~/uploads/@photoFileName" class="mini-image">
+            }
+        </div>
+    </div>
+    <div class="game-section">
+        <div class="top-game-section">
+            <div class="info">
+                <h1 class="no-margin-and-padding">@Model.Title</h1>
+                <div class="row">
+                    @for (float i = 0; i < 5; i++)
+                        {
+                            if (ViewBag.AverageMark >= i + 1)
+                            {
+                            <img src="~/images/full_star.png" class="star">
+                            }
+                            else if (ViewBag.AverageMark >= i + 0.5f)
+                            {
+                            <img src="~/images/half_star.png" class="star">
+                            }
+                            else
+                            {
+                            <img src="~/images/empty_star.png" class="star">
+                            }
+                        }
+                </div>
+                <h3 class="no-margin-and-padding">Ocena: @ViewBag.AverageMark.ToString("F1")/10</h3>
+                <a class="reviews-link">Zobacz opinie</a>
+            </div>
+            <div class="buy-tile">
+                <h3 class="buy-tile-text">Cena: @Model.Price zł</h3>
+                <h3 class="buy-tile-text">Okres: 30 dni</h3>
+                <button class="buy-tile-button">Dodaj do koszyka</button>
+            </div>
+        </div>
+        <div class="bottom-game-section">
+            <h3 class="no-margin-and-padding">Opis</h3>
+            <p>@Model.Description</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const topGameSectionWidth = document.querySelector('.top-game-section').offsetWidth;
+        const bottomGameSection = document.querySelector('.bottom-game-section');
+        bottomGameSection.style.width = topGameSectionWidth + 'px';
+
+        const mainImage = document.querySelector('.main-image')
+        const miniImages = document.querySelectorAll('.mini-image')
+
+        function changeMainImage(event) {
+            mainImage.src = event.target.src;
+        }
+
+        miniImages.forEach(function (miniImage) {
+            miniImage.addEventListener('click', changeMainImage)
+        })
+    });
+</script>

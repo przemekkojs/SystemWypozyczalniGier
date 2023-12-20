@@ -4,11 +4,12 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SystemWypozyczalniGier">
-            <Node name="SystemWypozyczalniGier" expanded="True">
+            <Node name="SystemWypozyczalniGier">
+              <Node name="Controllers" expanded="True" />
               <Node name="Database" expanded="True" />
-              <Node name="Tables" expanded="True">
-                <Node name="Categories.cs" selected="True" />
-              </Node>
+              <Node name="Enumerations" expanded="True" />
+              <Node name="Tables" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -16,7 +17,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SystemWypozyczalniGier PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
