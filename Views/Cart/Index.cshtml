@@ -1,0 +1,67 @@
+﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
+@{
+    ViewData["Title"] = "Index";
+    ViewData["SumPrice"] = Model.Aggregate(0.0, (acc, g) => acc + g.Price).ToString("F2");
+}
+
+<div class="main-layout-shop">
+    <div class="top">
+        <h1 class="no-margin-and-padding">Twój koszyk</h1>
+        <div>
+            <img src="~/images/info.png" class="info-icon">
+            <p class="no-margin-and-padding">Dokończ zamówienie - produkty w koszyku nie są zarezerwowane</p>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="games-list">
+            @foreach (var game in Model)
+            {
+                var averageMark = game.Reviews.Count > 0 ?
+                        (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
+                        5;
+
+                <div class="game-element">
+                    <img src="~/uploads/@game.PhotoFileNames[0]" class="game-image">
+                    <div class="game-info">
+                        <h3 class="no-margin-and-padding">Minecraft: Java Edition</h3>
+                        <div class="row">
+                            @for (float i = 0; i < 5; i++)
+                            {
+                                if (averageMark >= i + 1)
+                                {
+                                    <img src="~/images/full_star.png" class="game-star">
+                                }
+                                else if (averageMark >= i + 0.5f)
+                                {
+                                    <img src="~/images/half_star.png" class="game-star">
+                                }
+                                else
+                                {
+                                    <img src="~/images/empty_star.png" class="game-star">
+                                }
+                            }
+                        </div>
+                        <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
+                    </div>
+                    <div class="game-side-info">
+                        <h5 class="game-side-info-text">Cena: @game.Price zł</h5>
+                        <h5 class="game-side-info-text">Okres: 30 dni</h5>
+                        <img src="~/images/trash.png" class="game-side-info-button">
+                    </div>    
+                </div>
+            }
+        </div>
+        <div class="summary-tile">
+            <h4 class="summary-price-text">Cena całkowita: @ViewData["SumPrice"] zł</h4>
+            <button class="summary-button">Przejdź do płatności</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const topWidth = document.querySelector('.top');
+        const mainContentWidth = document.querySelector('.main-content').offsetWidth;
+        topWidth.style.width = mainContentWidth + 'px';
+    });
+</script>

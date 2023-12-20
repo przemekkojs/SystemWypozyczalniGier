@@ -28,10 +28,10 @@ namespace SystemWypozyczalniGier.Tables
         public RentalStatus RentalStatus { get; set; }
 
         [DataType(DataType.DateTime)]
-        public DateTime? RentalTime { get; set; }
+        public DateTime RentalTime { get; set; }
 
         public Rental() { }
-        public Rental(string accountEmail, int gameId, RentalStatus status, DateTime? rentalTime)
+        public Rental(string accountEmail, int gameId, RentalStatus status, DateTime rentalTime)
         {
             AccountEmail = accountEmail;
             GameId = gameId;
