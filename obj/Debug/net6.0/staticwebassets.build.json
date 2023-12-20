@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LYEWmsLk3qaXJudQ8qZntavOeursxNdI8qgVYBOurAk=",
+  "Hash": "1Cq1LXUi+uCpsgNAd3kdQE30Vh0AnPj1ob+WRi3z0Os=",
   "Source": "SystemWypozyczalniGier",
   "BasePath": "_content/SystemWypozyczalniGier",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot/images/half_star.png"
     },
     {
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/info.png",
+      "SourceId": "SystemWypozyczalniGier",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
+      "BasePath": "_content/SystemWypozyczalniGier",
+      "RelativePath": "images/info.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/info.png"
+    },
+    {
       "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/no_image.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/no_image.png"
+    },
+    {
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/trash.png",
+      "SourceId": "SystemWypozyczalniGier",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
+      "BasePath": "_content/SystemWypozyczalniGier",
+      "RelativePath": "images/trash.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/trash.png"
     },
     {
       "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/site.js",

@@ -188,13 +188,138 @@ a.reviews-link {
     border-radius: 10px;
     color: white;
     border-color: white;
-    background-color: blue;
+    background-color: #4994ec;
 }
 
 div.bottom-game-section p {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
+/* CART*/
+.main-layout-shop {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* Top */
+.top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content
+}
+.top div {
+    display: flex;
+    flex-flow: row;
+    gap: 8px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px
+}
+.top div p {
+    display: flex;
+    align-items: center;
+}
+.info-icon {
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-flow: row;
+    gap: 15px;
+    width: fit-content;
+}
+.games-list {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.game-element {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 600px;
+}
+.game-image {
+    width: 120px;
+    height: 160px;
+}
+.game-info {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+.game-info div.row {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-flow: row;
+    gap: 5px
+}
+.game-star {
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+}
+.game-side-info {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 250px;
+}
+.game-side-info-text {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+.game-side-info-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.summary-tile {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 250px;
+    height: 150px;
+}
+.summary-price-text {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.summary-button {
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    background-color: #4994ec;
+}
+
+
 
 
 

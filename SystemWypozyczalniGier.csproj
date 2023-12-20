@@ -26,11 +26,13 @@
     <Folder Include="Views\Shop\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\uploads\" />
+    <Folder Include="Views\Cart\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Helpers\" />
     <None Remove="Views\Shop\" />
+    <None Remove="Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\images\" />

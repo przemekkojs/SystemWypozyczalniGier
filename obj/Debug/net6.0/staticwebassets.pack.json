@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets/images/half_star.png"
     },
     {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/info.png",
+      "PackagePath": "staticwebassets/images/info.png"
+    },
+    {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/no_image.png",
       "PackagePath": "staticwebassets/images/no_image.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/trash.png",
+      "PackagePath": "staticwebassets/images/trash.png"
     },
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/site.js",
