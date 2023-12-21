@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Newtonsoft.Json;
 using SystemWypozyczalniGier.Database;
 using SystemWypozyczalniGier.Helpers;
@@ -49,8 +44,6 @@ namespace SystemWypozyczalniGier.Controllers
 
             var activeRental = game.Rentals.FirstOrDefault(r => r.AccountEmail == UserHelper.LoggedUserEmail && r.RentalStatus == Enumerations.RentalStatus.ACTIVE);
             ViewBag.RentalEnd = activeRental != null ? activeRental.RentalTime.AddDays(30).ToString("dd.MM.yyyy") : "";
-
-
 
             return View(game);
         }

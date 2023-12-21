@@ -4,6 +4,10 @@
     ViewData["Title"] = "Przeglądaj gry";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/cart-style.css" />
+</head>
+
 <h1>Przeglądaj gry</h1>
 
 @foreach (var game in Model)
@@ -12,7 +16,7 @@
         (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
         5;
 
-    <div class="game-element" style="display:inline-block;margin:5pt;">
+    <div class="game-element tile" style="display:inline-block;margin:5pt;">
         <img src="~/uploads/@game.MainPhotoName" class="game-image">
 
         <div class="game-info">
@@ -24,15 +28,15 @@
                 {
                     if (averageMark >= i + 1)
                     {
-                        <img src="~/images/full_star.png" class="game-star">
+                        <img src="~/images/full_star.png" class="star">
                     }
                     else if (averageMark >= i + 0.5f)
                     {
-                        <img src="~/images/half_star.png" class="game-star">
+                        <img src="~/images/half_star.png" class="star">
                     }
                     else
                     {
-                        <img src="~/images/empty_star.png" class="game-star">
+                        <img src="~/images/empty_star.png" class="star">
                     }
                 }
             </div>

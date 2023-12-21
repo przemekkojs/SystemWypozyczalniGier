@@ -9,6 +9,7 @@ a {
     color: #4994ec;
     cursor: pointer;
 }
+
 a:hover {
     color: #4994ec;
 }
@@ -95,7 +96,8 @@ body {
     padding: 0px;
     margin: 0px;
 }
-a.no-decoration-link{
+
+a.no-decoration-link {
     text-decoration: none;
     color: black;
 }
@@ -107,6 +109,7 @@ a.no-decoration-link{
     margin-bottom: 0px;
     text-align: center;
 }
+
 .regular-button {
     border-radius: 10px;
     color: white;
@@ -115,6 +118,7 @@ a.no-decoration-link{
     height: 100%;
     width: 100%;
 }
+
 .cancel-button {
     border-radius: 10px;
     color: white;
@@ -123,6 +127,7 @@ a.no-decoration-link{
     height: 100%;
     width: 100%;
 }
+
 .locked-button {
     border-radius: 10px;
     color: white;
@@ -140,7 +145,3 @@ a.no-decoration-link{
     padding: 15px;
     margin: 0px;
 }
-
-
-
-

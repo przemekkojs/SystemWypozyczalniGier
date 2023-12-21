@@ -88,7 +88,6 @@ namespace SystemWypozyczalniGier.Tables
         public double DiscountedPrice => Price * (1f - Discount);
 
         public Game() { }
-
         public Game(
             int gameId,
             int publisherId,
@@ -112,7 +111,5 @@ namespace SystemWypozyczalniGier.Tables
             Discount = discount;
             Pegi = pegi;
         }
-        #endregion
-
     }
 }

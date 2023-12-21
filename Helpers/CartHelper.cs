@@ -1,11 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
 
 namespace SystemWypozyczalniGier.Helpers
 {
-	public static class CartHelper
+    public static class CartHelper
 	{
 		private static readonly string CartKeySuffix = "-cart";
         private static string CartKey => UserHelper.LoggedUserEmail.Replace("@", ".at.") + CartKeySuffix;
