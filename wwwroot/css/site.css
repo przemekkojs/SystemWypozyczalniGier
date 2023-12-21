@@ -123,6 +123,15 @@ a.no-decoration-link{
     height: 100%;
     width: 100%;
 }
+.locked-button {
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+}
 
 /* Tiles */
 .tile {

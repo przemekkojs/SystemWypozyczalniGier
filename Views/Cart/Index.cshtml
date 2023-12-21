@@ -1,7 +1,6 @@
 ﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
 @{
     ViewData["Title"] = "Index";
-    ViewData["SumPrice"] = Model.Aggregate(0.0, (acc, g) => acc + g.Price).ToString("F2");
 }
 
 <head>
@@ -26,7 +25,7 @@ else
             <h1 class="no-margin-and-padding">Twój koszyk</h1>
             <div>
                 <img src="~/images/info.png" class="info-icon">
-                <p class="no-margin-and-padding">Dokończ zamówienie - produkty w koszyku nie są zarezerwowane</p>
+                <p class="no-margin-and-padding">Wypożycz minimum 3 gry i otrzymaj rabat 30% na najtańszą z nich!</p>
             </div>
         </div>
         <div class="main-content">
@@ -65,8 +64,21 @@ else
                             <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
                         </div>
                         <div class="game-side-info">
-                            <h5 class="game-side-info-text">Cena: @game.Price zł</h5>
-                            <h5 class="game-side-info-text">Okres: 30 dni</h5>
+                            <div class="price-container">
+                                <h5 class="no-margin-and-padding">Cena:</h5>
+                                <div>
+                                    @if (ViewBag.PromotionedGame == game)
+                                    {
+                                        <h5 class="buy-tile-discounted-price">@game.DiscountedPrice.ToString("F2") zł</h5>
+                                        <h5 class="no-margin-and-padding">@ViewBag.PromotionedGamePrice.ToString("F2") zł</h5>
+                                    }
+                                    else
+                                    {
+                                        <h5 class="no-margin-and-padding">@game.DiscountedPrice.ToString("F2") zł</h5>
+                                    }
+                                </div>
+                            </div>
+                            <h5 class="no-margin-and-padding">Okres: 30 dni</h5>
                             <form asp-action="RemoveFromCart" asp-route-id="@game.GameId" method="post" class="game-side-info-button">
                                 <input type="image" src="~/images/trash.png">
                             </form>
@@ -75,7 +87,7 @@ else
                 }
             </div>
             <div class="summary-tile tile">
-                <h4 class="summary-price-text">Cena całkowita: @ViewData["SumPrice"] zł</h4>
+                <h4 class="summary-price-text">Cena całkowita: @ViewBag.TotalPrice.ToString("F2") zł</h4>
                 <form asp-action="Payment" method="post" class="button-form">
                     <button type="submit" class="regular-button">Przejdź do płatności</button>
                 </form>

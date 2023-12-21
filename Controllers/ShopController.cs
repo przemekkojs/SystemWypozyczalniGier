@@ -50,6 +50,8 @@ namespace SystemWypozyczalniGier.Controllers
             var activeRental = game.Rentals.FirstOrDefault(r => r.AccountEmail == UserHelper.LoggedUserEmail && r.RentalStatus == Enumerations.RentalStatus.ACTIVE);
             ViewBag.RentalEnd = activeRental != null ? activeRental.RentalTime.AddDays(30).ToString("dd.MM.yyyy") : "";
 
+
+
             return View(game);
         }
 
@@ -79,14 +81,6 @@ namespace SystemWypozyczalniGier.Controllers
             CartHelper.SaveCart(Response, cart);
 
             return RedirectToAction(nameof(CartController.Index), nameof(CartController).Replace("Controller", ""));
-        }
-
-        private void SetCookie(string key, string value, TimeSpan? timeSpan = null)
-        {
-            CookieOptions options = new();
-            if (timeSpan.HasValue)
-                options.Expires = DateTime.Now + timeSpan;
-            Response.Cookies.Append(key, value, options);
         }
     }
 }

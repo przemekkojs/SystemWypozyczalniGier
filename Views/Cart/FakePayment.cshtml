@@ -1,7 +1,4 @@
 ﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
-@{
-    ViewData["SumPrice"] = Model.Aggregate(0.0, (acc, g) => acc + g.Price).ToString("F2");
-}
 
 <head>
     <link rel="stylesheet" href="~/css/fake-payment-style.css" />
@@ -10,7 +7,7 @@
 <div class="main-layout">
     <img src="~/images/coin.png">
     <p class="no-margin-and-padding head">Oto fake'owa strona płatności.</p>
-    <p class="no-margin-and-padding small-head">Do zapłaty: @ViewData["SumPrice"] zł</p>
+    <p class="no-margin-and-padding small-head">Do zapłaty: @ViewBag.TotalPrice.ToString("F2") zł</p>
     <div class="button-row">
         <form asp-action="Index" method="post" class="button-form">
             <button type="submit" class="cancel-button">Odrzuć płatność</button>

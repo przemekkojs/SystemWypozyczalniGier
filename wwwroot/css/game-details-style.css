@@ -54,7 +54,7 @@ div.bottom-game-section {
     width: 100%;
 }
 div.info {
-    height: 160px;
+    height: 180px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -77,20 +77,37 @@ a.reviews-link {
 }
 
 .buy-tile {
-    width: 220px;
-    height: 160px;
+    width: 240px;
+    height: 180px;
     display: flex;
     flex-flow: column;
     padding: 15px;
 }
-.buy-tile-text {
-    margin: 0px 0px 5px 0px;
+.buy-tile-discounted-price {
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: line-through;
 }
+.price-container {
+    display: flex;
+    flex-flow: row;
+    align-items: end;
+    gap: 8px;
+    height: fit-content;
+    margin: 0px 0px 10px 0px;
+}
+.price-container div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: fit-content;
+}
+.small-font-button {
+    font-size: 12px
+}
+
+/*Bottom Game Section*/
 div.bottom-game-section p {
     margin-top: 10px;
     margin-bottom: 0px;
-}
-
-.rented-button {
-    font-size: 12px
 }
