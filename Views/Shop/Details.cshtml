@@ -3,6 +3,10 @@
     ViewData["Title"] = "Details";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/game-details-style.css" />
+</head>
+
 <div class="main-layout">
     <div class="images-section">
         <img src="~/uploads/@Model.MainPhotoName" class="main-image">
@@ -43,10 +47,39 @@
                 <h3 class="no-margin-and-padding">Ocena: @ViewBag.AverageMark.ToString("F1")/10</h3>
                 <a class="reviews-link">Zobacz opinie</a>
             </div>
-            <div class="buy-tile">
-                <h3 class="buy-tile-text">Cena: @Model.Price zł</h3>
-                <h3 class="buy-tile-text">Okres: 30 dni</h3>
-                <button class="buy-tile-button">Dodaj do koszyka</button>
+            <div class="buy-tile tile">
+                <div class="price-container">
+                    <h4 class="no-margin-and-padding">Cena:</h4>
+                    <div>
+                        <h5 class="buy-tile-discounted-price" style="display: @(Model.IsDiscounted ? "block" : "none")">@Model.Price zł</h5>
+                        <h4 class="no-margin-and-padding">@Model.DiscountedPrice.ToString("F2") zł</h4>
+                    </div>
+                </div>
+                <h4 class="no-margin-and-padding">Okres: 30 dni</h4>
+                @if (ViewBag.RentalEnd != "")
+                {
+                    <form class="button-form">
+                        <button type="reset" class="small-font-button regular-button">Wypożyczone do @ViewBag.RentalEnd</button>
+                    </form>
+                }
+                else if (ViewBag.InCart)
+                {
+                    <form asp-action="RemoveFromCart" asp-route-id="@Model.GameId" method="post" class="button-form">
+                        <button type="submit" class="cancel-button">Usuń z koszyka</button>
+                    </form>
+                }
+                else if (Model.QuantityInStock <= 0)
+                {
+                    <form class="button-form">
+                        <button type="reset" class="small-font-button locked-button">Gra czasowo niedostępna</button>
+                    </form>
+                }
+                else
+                {
+                    <form asp-action="AddToCart" asp-route-id="@Model.GameId" method="post" class="button-form">
+                        <button type="submit" class="regular-button">Dodaj do koszyka</button>
+                    </form>
+                }
             </div>
         </div>
         <div class="bottom-game-section">

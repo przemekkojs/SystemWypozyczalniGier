@@ -69,7 +69,8 @@ namespace SystemWypozyczalniGier.Tables
         [Required]
         public Accessibility Accessibility { get; set; }
 
-        public double Discount { get; set; }
+        [Range(0.0, 1.0, ErrorMessage = "Przecena musi być z zakresu [0, 1].")]
+        public double Discount { get; set; } = 0;
 
         [Required]
         public Pegi Pegi { get; set; }
@@ -83,10 +84,10 @@ namespace SystemWypozyczalniGier.Tables
         [InverseProperty(nameof(GameCategory.Game))]
         public virtual ICollection<GameCategory> Categories { get; set; } = new List<GameCategory>();
 
-        // To nie było do końca potrzebne, ale ok
-        #region Konstruktory
-        public Game() { }
+        public bool IsDiscounted => Discount > 0;
+        public double DiscountedPrice => Price * (1f - Discount);
 
+        public Game() { }
         public Game(
             int gameId,
             int publisherId,
@@ -110,7 +111,5 @@ namespace SystemWypozyczalniGier.Tables
             Discount = discount;
             Pegi = pegi;
         }
-        #endregion
-
     }
 }

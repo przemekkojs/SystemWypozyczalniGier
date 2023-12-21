@@ -64,7 +64,11 @@ namespace SystemWypozyczalniGier.Controllers
             if (ModelState.IsValid)
             {
                 _context.Add(rental);
+                var game = _context.Games.FirstOrDefault(g => g.GameId == rental.GameId)!;
+                game.QuantityInStock = Math.Clamp(game.QuantityInStock - 1, 0, game.MaxQuantity);
+
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             ViewData["AccountEmail"] = new SelectList(_context.Accounts, "Email", "Email", rental.AccountEmail);
@@ -159,6 +163,8 @@ namespace SystemWypozyczalniGier.Controllers
             var rental = await _context.Rentals.FindAsync(accountEmail, gameId);
             if (rental != null)
             {
+                var game = _context.Games.FirstOrDefault(g => g.GameId == rental.GameId)!;
+                game.QuantityInStock = Math.Clamp(game.QuantityInStock + 1, 0, game.MaxQuantity);
                 _context.Rentals.Remove(rental);
             }
             

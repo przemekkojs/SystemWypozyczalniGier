@@ -1,0 +1,20 @@
+﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
+
+<head>
+    <link rel="stylesheet" href="~/css/fake-payment-style.css" />
+</head>
+
+<div class="main-layout">
+    <img src="~/images/coin.png">
+    <p class="no-margin-and-padding head">Oto fake'owa strona płatności.</p>
+    <p class="no-margin-and-padding small-head">Do zapłaty: @ViewBag.TotalPrice.ToString("F2") zł</p>
+    <div class="button-row">
+        <form asp-action="Index" method="post" class="button-form">
+            <button type="submit" class="cancel-button">Odrzuć płatność</button>
+        </form>
+        <form asp-action="ConfirmPayment" method="post" class="button-form">
+            <button type="submit" class="regular-button">Zapłać</button>
+        </form>
+    </div>
+</div>
+

@@ -1,70 +1,105 @@
 ﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
 @{
     ViewData["Title"] = "Index";
-    ViewData["SumPrice"] = Model.Aggregate(0.0, (acc, g) => acc + g.Price).ToString("F2");
 }
 
-<div class="main-layout-shop">
-    <div class="top">
-        <h1 class="no-margin-and-padding">Twój koszyk</h1>
-        <div>
-            <img src="~/images/info.png" class="info-icon">
-            <p class="no-margin-and-padding">Dokończ zamówienie - produkty w koszyku nie są zarezerwowane</p>
-        </div>
+<head>
+    <link rel="stylesheet" href="~/css/cart-style.css" />
+</head>
+
+@if (Model.Count() == 0)
+{
+    <div class="empty-cart">
+        <img src="~/images/empty_cart.png">
+        <p class="no-margin-and-padding empty-head">Twój koszyk jest pusty. Śmiało, dodaj coś do niego!</p>
+        <p class="no-margin-and-padding empty-small-head">Gry nie będą czekać!</p>
+        <form asp-controller="Shop" asp-action="Index" method="post" class="button-form">
+            <button type="submit" class="regular-button">Przeglądaj oferty</button>
+        </form>
     </div>
-    <div class="main-content">
-        <div class="games-list">
-            @foreach (var game in Model)
-            {
-                var averageMark = game.Reviews.Count > 0 ?
-                        (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
-                        5;
+}
+else
+{
+    <div class="main-layout">
+        <div class="top">
+            <h1 class="no-margin-and-padding">Twój koszyk</h1>
+            <div>
+                <img src="~/images/info.png" class="info-icon">
+                <p class="no-margin-and-padding">Wypożycz minimum 3 gry i otrzymaj rabat 30% na najtańszą z nich!</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="games-list">
+                @foreach (var game in Model)
+                {
+                    var averageMark = game.Reviews.Count > 0 ?
+                            (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
+                            5;
 
-                <div class="game-element">
-                    <img src="~/uploads/@game.MainPhotoName" class="game-image">
-
-                    <div class="game-info">
-                        <h3 class="no-margin-and-padding">@game.Title</h3>
-
-                        <div class="row">
-                            @for (float i = 0; i < 5; i++)
-                            {
-                                if (averageMark >= i + 1)
+                    <div class="game-element tile">
+                        <a asp-controller="Shop" asp-action="Details" asp-route-id="@game.GameId">
+                            <img src="~/uploads/@game.MainPhotoName" class="game-image">
+                        </a>
+                        <div class="game-info">
+                            <h3 class="no-margin-and-padding">
+                                <a class="no-decoration-link" asp-controller="Shop" asp-action="Details" asp-route-id="@game.GameId">@game.Title</a>
+                            </h3>
+                            <div class="row">
+                                @for (float i = 0; i < 5; i++)
                                 {
-                                    <img src="~/images/full_star.png" class="game-star">
+                                    if (averageMark >= i + 1)
+                                    {
+                                        <img src="~/images/full_star.png" class="star">
+                                    }
+                                    else if (averageMark >= i + 0.5f)
+                                    {
+                                        <img src="~/images/half_star.png" class="star">
+                                    }
+                                    else
+                                    {
+                                        <img src="~/images/empty_star.png" class="star">
+                                    }
                                 }
-                                else if (averageMark >= i + 0.5f)
-                                {
-                                    <img src="~/images/half_star.png" class="game-star">
-                                }
-                                else
-                                {
-                                    <img src="~/images/empty_star.png" class="game-star">
-                                }
-                            }
+                            </div>
+                            <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
                         </div>
-                        <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
+                        <div class="game-side-info">
+                            <div class="price-container">
+                                <h5 class="no-margin-and-padding">Cena:</h5>
+                                <div>
+                                    @if (ViewBag.PromotionedGame == game)
+                                    {
+                                        <h5 class="buy-tile-discounted-price">@game.DiscountedPrice.ToString("F2") zł</h5>
+                                        <h5 class="no-margin-and-padding">@ViewBag.PromotionedGamePrice.ToString("F2") zł</h5>
+                                    }
+                                    else
+                                    {
+                                        <h5 class="no-margin-and-padding">@game.DiscountedPrice.ToString("F2") zł</h5>
+                                    }
+                                </div>
+                            </div>
+                            <h5 class="no-margin-and-padding">Okres: 30 dni</h5>
+                            <form asp-action="RemoveFromCart" asp-route-id="@game.GameId" method="post" class="game-side-info-button">
+                                <input type="image" src="~/images/trash.png">
+                            </form>
+                        </div>
                     </div>
-
-                    <div class="game-side-info">
-                        <h5 class="game-side-info-text">Cena: @game.Price zł</h5>
-                        <h5 class="game-side-info-text">Okres: 30 dni</h5>
-                        <img src="~/images/trash.png" class="game-side-info-button">
-                    </div>    
-                </div>
-            }
-        </div>
-        <div class="summary-tile">
-            <h4 class="summary-price-text">Cena całkowita: @ViewData["SumPrice"] zł</h4>
-            <button class="summary-button">Przejdź do płatności</button>
+                }
+            </div>
+            <div class="summary-tile tile">
+                <h4 class="summary-price-text">Cena całkowita: @ViewBag.TotalPrice.ToString("F2") zł</h4>
+                <form asp-action="Payment" method="post" class="button-form">
+                    <button type="submit" class="regular-button">Przejdź do płatności</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-        const topWidth = document.querySelector('.top');
-        const mainContentWidth = document.querySelector('.main-content').offsetWidth;
-        topWidth.style.width = mainContentWidth + 'px';
-    });
-</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const topWidth = document.querySelector('.top');
+            const mainContentWidth = document.querySelector('.main-content').offsetWidth;
+            topWidth.style.width = mainContentWidth + 'px';
+        });
+    </script>
+}
