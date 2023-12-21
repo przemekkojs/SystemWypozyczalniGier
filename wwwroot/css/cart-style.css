@@ -1,0 +1,137 @@
+﻿/* General */
+.main-layout {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* Top */
+.top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content
+}
+.top div {
+    display: flex;
+    flex-flow: row;
+    gap: 8px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px
+}
+.top div p {
+    display: flex;
+    align-items: center;
+}
+.info-icon {
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-flow: row;
+    gap: 15px;
+    width: fit-content;
+}
+
+.games-list {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.game-element {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    width: 650px;
+}
+.game-image {
+    width: 120px;
+    height: 160px;
+}
+.game-info {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+.game-info div.row {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-flow: row;
+    gap: 5px
+}
+.star {
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+}
+.game-side-info {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 150px;
+}
+.game-side-info-text {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+.game-side-info-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.game-side-info-button input {
+    width: 100%;
+    height: 100%;
+}
+
+.summary-tile {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 250px;
+    height: 150px;
+}
+.summary-price-text {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Empty Cart */
+.empty-cart {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 5px;
+}
+.empty-cart img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 20px;
+}
+.empty-head {
+    font-size: 22px;
+}
+.empty-small-head {
+    font-size: 18px;
+}
+.empty-cart form {
+    margin: 20px;
+    width: 200px;
+}

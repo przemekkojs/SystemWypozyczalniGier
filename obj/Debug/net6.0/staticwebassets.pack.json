@@ -9,12 +9,32 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
+      "PackagePath": "staticwebassets/css/cart-style.css"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/fake-payment-style.css",
+      "PackagePath": "staticwebassets/css/fake-payment-style.css"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
+      "PackagePath": "staticwebassets/css/game-details-style.css"
+    },
+    {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/coin.png",
+      "PackagePath": "staticwebassets/images/coin.png"
+    },
+    {
+      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_cart.png",
+      "PackagePath": "staticwebassets/images/empty_cart.png"
     },
     {
       "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_star.png",

@@ -1,0 +1,31 @@
+﻿.main-layout {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-layout img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.head {
+    font-size: 22px;
+}
+
+.small-head {
+    font-size: 18px;
+}
+
+.main-layout form {
+    margin: 20px;
+    width: 200px;
+}
+
+.button-row{
+    display: flex;
+    flex-flow: row;
+}

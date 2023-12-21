@@ -6,9 +6,9 @@
     public enum RentalStatus
     {
         /// <summary>
-        /// W koszyku
+        /// Wypożyczenie aktywne
         /// </summary>
-        IN_BASKET,
+        ACTIVE,
 
         /// <summary>
         /// Zarchiwizowana
