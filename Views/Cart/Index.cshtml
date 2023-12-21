@@ -21,9 +21,11 @@
                         5;
 
                 <div class="game-element">
-                    <img src="~/uploads/@game.PhotoFileNames[0]" class="game-image">
+                    <img src="~/uploads/@game.MainPhotoName" class="game-image">
+
                     <div class="game-info">
-                        <h3 class="no-margin-and-padding">Minecraft: Java Edition</h3>
+                        <h3 class="no-margin-and-padding">@game.Title</h3>
+
                         <div class="row">
                             @for (float i = 0; i < 5; i++)
                             {
@@ -43,6 +45,7 @@
                         </div>
                         <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
                     </div>
+
                     <div class="game-side-info">
                         <h5 class="game-side-info-text">Cena: @game.Price zł</h5>
                         <h5 class="game-side-info-text">Okres: 30 dni</h5>

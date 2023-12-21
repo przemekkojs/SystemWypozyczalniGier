@@ -39,7 +39,30 @@
             <th>
                 @Html.DisplayNameFor(model => model.Pegi)
             </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.MainPhotoName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Photo1Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Photo2Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Photo3Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Photo4Name)
+            </th>
+
             <th></th>
+
+
         </tr>
     </thead>
     <tbody>
@@ -72,6 +95,27 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Pegi)
             </td>
+
+            <td>
+                <img src="~/uploads/@item.MainPhotoName"/>
+            </td>
+
+            <td>
+                <img src="~/uploads/@item.Photo1Name"/>
+            </td>
+
+            <td>
+                <img src="~/uploads/@item.Photo2Name"/>
+            </td>
+
+            <td>
+                <img src="~/uploads/@item.Photo3Name"/>
+            </td>
+
+            <td>
+                <img src="~/uploads/@item.Photo4Name"/>
+            </td>
+
             <td>
                 <a asp-action="Edit" asp-route-id="@item.GameId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.GameId">Details</a> |

@@ -39,9 +39,10 @@ namespace SystemWypozyczalniGier.Controllers
                 return NotFound();
             }
 
-            ViewBag.AverageMark = (game.Reviews.Count > 0 ?
+            // Œrednia ocena
+            ViewBag.AverageMark = game.Reviews.Count > 0 ?
                 (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
-                5);
+                5;
 
             return View(game);
         }

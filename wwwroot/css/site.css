@@ -256,11 +256,13 @@ div.bottom-game-section p {
     width: 120px;
     height: 160px;
 }
+
 .game-info {
     display: flex;
     flex-flow: column;
     gap: 5px;
 }
+
 .game-info div.row {
     padding-left: 12px;
     padding-right: 12px;
@@ -268,11 +270,13 @@ div.bottom-game-section p {
     flex-flow: row;
     gap: 5px
 }
+
 .game-star {
     padding: 0px;
     width: 30px;
     height: 30px;
 }
+
 .game-side-info {
     position: relative;
     display: flex;
@@ -282,10 +286,12 @@ div.bottom-game-section p {
     margin-right: 0px;
     width: 250px;
 }
+
 .game-side-info-text {
     margin: 0px;
     padding: 0px 0px 5px 0px;
 }
+
 .game-side-info-button {
     position: absolute;
     width: 30px;
@@ -304,11 +310,13 @@ div.bottom-game-section p {
     width: 250px;
     height: 150px;
 }
+
 .summary-price-text {
     text-align: center;
     padding: 0px;
     margin: 0px;
 }
+
 .summary-button {
     height: 35px;
     margin-top: auto;
@@ -318,8 +326,3 @@ div.bottom-game-section p {
     border-color: white;
     background-color: #4994ec;
 }
-
-
-
-
-
