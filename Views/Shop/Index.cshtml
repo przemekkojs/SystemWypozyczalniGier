@@ -1,84 +1,51 @@
 ﻿@model IEnumerable<SystemWypozyczalniGier.Tables.Game>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Przeglądaj gry";
 }
 
-<h1>Index</h1>
+<h1>Przeglądaj gry</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Publisher)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.QuantityInStock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaxQuantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Accessibility)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Discount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pegi)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Publisher.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.QuantityInStock)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MaxQuantity)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Accessibility)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Discount)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Pegi)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.GameId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.GameId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.GameId">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+@foreach (var game in Model)
+{
+    var averageMark = game.Reviews.Count > 0 ?
+        (float)game.Reviews.Aggregate(0, (acc, r) => acc + r.Mark) / game.Reviews.Count :
+        5;
+
+    <div class="game-element" style="display:inline-block;margin:5pt;">
+        <img src="~/uploads/@game.MainPhotoName" class="game-image">
+
+        <div class="game-info">
+            <h3 class="no-margin-and-padding">@game.Title</h3>
+            <h5 class="no-margin-and-padding">Od: @game.Publisher.Name</h5>
+
+            <div class="row">
+                @for (float i = 0; i < 5; i++)
+                {
+                    if (averageMark >= i + 1)
+                    {
+                        <img src="~/images/full_star.png" class="game-star">
+                    }
+                    else if (averageMark >= i + 0.5f)
+                    {
+                        <img src="~/images/half_star.png" class="game-star">
+                    }
+                    else
+                    {
+                        <img src="~/images/empty_star.png" class="game-star">
+                    }
+                }
+            </div>
+
+            <h5 class="no-margin-and-padding">Ocena: @averageMark.ToString("F1")/5</h5>
+        </div>
+
+        <div class="game-side-info">
+            <h5 class="game-side-info-text">Cena: @game.Price zł</h5>
+        </div>    
+
+        <button class=summary-button>
+            <a asp-action="Details" asp-route-id="@game.GameId" style="text-decoration:none;color:inherit;">Sczegóły gry</a>
+        </button>
+    </div>
+}

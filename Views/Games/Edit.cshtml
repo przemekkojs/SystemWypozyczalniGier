@@ -13,6 +13,12 @@
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="GameId" />
+            <input type="hidden" asp-for="Photo1Name" />
+            <input type="hidden" asp-for="Photo2Name" />
+            <input type="hidden" asp-for="Photo3Name" />
+            <input type="hidden" asp-for="Photo4Name" />
+            <input type="hidden" asp-for="MainPhotoName" />
+
             <div class="form-group">
                 <label asp-for="PublisherId" class="control-label"></label>
                 <select asp-for="PublisherId" class="form-control" asp-items="ViewBag.PublisherId"></select>

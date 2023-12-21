@@ -64,6 +64,21 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Pegi)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MainPhotoName)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/uploads/@Model.MainPhotoName" />
+        </dd>
+        <dt class="col-sm-2">
+            <span>Zdjêcia: </span>
+        </dt>
+        <dd>
+            <img src="~/uploads/@Model.Photo1Name" />
+            <img src="~/uploads/@Model.Photo2Name" />
+            <img src="~/uploads/@Model.Photo3Name" />
+            <img src="~/uploads/@Model.Photo4Name" />
+        </dd>
     </dl>
 </div>
 <div>

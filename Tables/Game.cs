@@ -10,9 +10,33 @@ namespace SystemWypozyczalniGier.Tables
     /// </summary>
     public class Game
     {
-        //TODO: Od 1 do 4 zdjęć powinno być wgrywanych przy dodawaniu gry w GamesControllerze
+        // TODO: Od 1 do 4 zdjęć powinno być wgrywanych przy dodawaniu gry w GamesControllerze
+        /*
+         * Za pomocą listy może być trudno to zrobić, bo Razor se nie poradzi XD.
+         * Sugerowałbym raczej rozwiązanie typu
+         * stworzenie pól Photo1Name, Photo2Name, Photo3Name, Photo4Name
+         * Photo1Name będzie Required, a reszta nie, wtedy łatwiej będzie z tym
+         * majstrować
+         */
         public List<string> PhotoFileNames =>
             new() { "minecraft_1.png", "minecraft_2.png"};
+
+        [Required]
+        [NotNull]
+        public string MainPhotoName { get; set; }
+
+        [Required]
+        [NotNull]
+        public string Photo1Name { get; set; }
+
+        [AllowNull]
+        public string? Photo2Name { get; set; }
+
+        [AllowNull]
+        public string? Photo3Name { get; set; }
+
+        [AllowNull]
+        public string? Photo4Name { get; set; }
 
         [Key]
         [Required]
@@ -64,6 +88,7 @@ namespace SystemWypozyczalniGier.Tables
         public double DiscountedPrice => Price * (1f - Discount);
 
         public Game() { }
+
         public Game(
             int gameId,
             int publisherId,
@@ -87,6 +112,7 @@ namespace SystemWypozyczalniGier.Tables
             Discount = discount;
             Pegi = pegi;
         }
+        #endregion
 
     }
 }
