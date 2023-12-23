@@ -10,17 +10,6 @@ namespace SystemWypozyczalniGier.Tables
     /// </summary>
     public class Game
     {
-        // TODO: Od 1 do 4 zdjęć powinno być wgrywanych przy dodawaniu gry w GamesControllerze
-        /*
-         * Za pomocą listy może być trudno to zrobić, bo Razor se nie poradzi XD.
-         * Sugerowałbym raczej rozwiązanie typu
-         * stworzenie pól Photo1Name, Photo2Name, Photo3Name, Photo4Name
-         * Photo1Name będzie Required, a reszta nie, wtedy łatwiej będzie z tym
-         * majstrować
-         */
-        public List<string> PhotoFileNames =>
-            new() { "minecraft_1.png", "minecraft_2.png"};
-
         [Required]
         [NotNull]
         public string MainPhotoName { get; set; }

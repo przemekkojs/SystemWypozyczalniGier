@@ -2,7 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using SystemWypozyczalniGier.Database;
+using SystemWypozyczalniGier.Enumerations;
 using SystemWypozyczalniGier.Helpers;
+using SystemWypozyczalniGier.Models;
+using SystemWypozyczalniGier.Tables;
 
 namespace SystemWypozyczalniGier.Controllers
 {
@@ -15,10 +18,45 @@ namespace SystemWypozyczalniGier.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? title, List<Category> categories)
         {
-            var databaseContext = _context.Games.Include(g => g.Publisher);
-            return View(await databaseContext.ToListAsync());
+            var databaseContext = from games in _context.Games
+                                  .Include(g => g.Publisher)
+                                  select games;
+
+            ViewData["TitleFilter"] = title;
+            ViewData["CategoryFilter"] = "";
+
+            if (!string.IsNullOrEmpty(title))
+            {
+                databaseContext = databaseContext
+                    .Where(g => g.Title.Contains(title));
+            }
+
+            if (categories.Count > 0)
+            {
+                foreach (var category in categories)
+                {
+                    databaseContext = databaseContext
+                        .Where(g => g.Categories
+                        .Select(c => c.Category)
+                        .Contains(category));
+
+                    ViewData["CategoryFilter"] += $"{category}, ";
+                }
+
+                ViewData["CategoryFilter"] = ((string)ViewData["CategoryFilter"])
+                    .Trim()
+                    .Remove(((string)ViewData["CategoryFilter"]).Length - 2);
+            }
+
+            var model = new GameViewModel()
+            {
+                Games = await databaseContext.ToListAsync(),
+                FilterCategories = GameViewModel.AllCategories.Except(categories).ToList() //categories.Count == 0 ? GameViewModel.AllCategories : categories
+            };
+
+            return View(model);
         }
 
         public async Task<IActionResult> Details(int? id)
