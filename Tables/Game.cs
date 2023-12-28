@@ -76,6 +76,11 @@ namespace SystemWypozyczalniGier.Tables
         public bool IsDiscounted => Discount > 0;
         public double DiscountedPrice => Price * (1f - Discount);
 
+        public string ShortDescription => 
+            Description.Length > 50 
+                ? $"{Description[..47]}..." 
+                : Description;
+
         public Game() { }
         public Game(
             int gameId,
@@ -86,8 +91,13 @@ namespace SystemWypozyczalniGier.Tables
             int quantityInStock,
             int maxQuantity,
             Accessibility accessibility,
-            int discount,
-            Pegi pegi)
+            double discount,
+            Pegi pegi, 
+            string mainPhotoName,
+            string photo1Name,
+            string? photo2Name = null,
+            string? photo3Name = null,
+            string? photo4Name = null)
         {
             GameId = gameId;
             PublisherId = publisherId;
@@ -99,6 +109,12 @@ namespace SystemWypozyczalniGier.Tables
             Accessibility = accessibility;
             Discount = discount;
             Pegi = pegi;
+            MainPhotoName = mainPhotoName;
+            Photo1Name = photo1Name;
+            Photo2Name = photo2Name;
+            Photo3Name = photo3Name;
+            Photo4Name = photo4Name;
+
         }
     }
 }
