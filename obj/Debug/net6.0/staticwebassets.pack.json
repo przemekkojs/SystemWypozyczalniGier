@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/add_photo.png",
+      "PackagePath": "staticwebassets/images/add_photo.png"
+    },
+    {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/coin.png",
       "PackagePath": "staticwebassets/images/coin.png"
     },
@@ -69,16 +73,16 @@
       "PackagePath": "staticwebassets/images/no_image.png"
     },
     {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/placeholder.png",
-      "PackagePath": "staticwebassets/images/placeholder.png"
-    },
-    {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/plus.png",
       "PackagePath": "staticwebassets/images/plus.png"
     },
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/trash.png",
       "PackagePath": "staticwebassets/images/trash.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/Games/Create.js",
+      "PackagePath": "staticwebassets/js/Games/Create.js"
     },
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/site.js",
@@ -313,12 +317,36 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/5_0.png",
-      "PackagePath": "staticwebassets/uploads/5_0.png"
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201108089_0.png",
+      "PackagePath": "staticwebassets/uploads/20231229201108089_0.png"
     },
     {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/5_1.png",
-      "PackagePath": "staticwebassets/uploads/5_1.png"
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201108092_1.png",
+      "PackagePath": "staticwebassets/uploads/20231229201108092_1.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322797_0.png",
+      "PackagePath": "staticwebassets/uploads/20231229201322797_0.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322798_1.jpg",
+      "PackagePath": "staticwebassets/uploads/20231229201322798_1.jpg"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322799_2.png",
+      "PackagePath": "staticwebassets/uploads/20231229201322799_2.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030310_0.png",
+      "PackagePath": "staticwebassets/uploads/20231229203030310_0.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030313_1.jpg",
+      "PackagePath": "staticwebassets/uploads/20231229203030313_1.jpg"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030314_2.jpeg",
+      "PackagePath": "staticwebassets/uploads/20231229203030314_2.jpeg"
     },
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",

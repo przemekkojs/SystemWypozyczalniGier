@@ -11,10 +11,10 @@
 <h1>Dodaj nową grę</h1>
 
 <hr />
-    <form asp-action="Create" method="post" enctype="multipart/form-data">
+<form asp-action="Create" method="post" enctype="multipart/form-data">
     <div class="form-table">
-    <div class="form-column">
-        
+        <div class="form-column">
+
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label">Tytuł</label>
@@ -23,12 +23,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="PublisherId" class="control-label">Wydawca</label>
-                <select asp-for="PublisherId" class ="form-control" asp-items="ViewBag.PublisherId"></select>
+                <select asp-for="PublisherId" class="form-control" asp-items="ViewBag.PublisherId"></select>
             </div>
-            
+
             <div class="form-group">
                 <label asp-for="Description" class="control-label">Opis</label>
-                <textarea rows="4" asp-for="Description" class="form-control" placeholder="Podaj opis, np. Epicka gra..."></textarea>
+                <textarea rows="4" asp-for="Description" class="form-control"
+                    placeholder="Podaj opis, np. Epicka gra..."></textarea>
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -48,41 +49,54 @@
             </div>
             <div class="form-group">
                 <label asp-for="Accessibility" class="control-label">Dostępność</label>
-                <select asp-for="Accessibility" asp-items="@SystemWypozyczalniGier.Helpers.EnumerationsHelper.AccessibilitiesSelectItems" class="form-control"></select>
+                <select asp-for="Accessibility"
+                    asp-items="@SystemWypozyczalniGier.Helpers.EnumerationsHelper.AccessibilitiesSelectItems"
+                    class="form-control"></select>
                 <span asp-validation-for="Accessibility" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Discount" class="control-label">Przecena</label>
-                <input asp-for="Discount" class="form-control" placeholder="Podaj liczbę z przedziału od 0.0 do 1.0, np. 0.15" />
+                <input asp-for="Discount" class="form-control"
+                    placeholder="Podaj liczbę z przedziału od 0.0 do 1.0, np. 0.15" />
                 <span asp-validation-for="Discount" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Pegi" class="control-label">PEGI</label>
-                <select asp-for="Pegi" asp-items="@SystemWypozyczalniGier.Helpers.EnumerationsHelper.PegiSelectItems" class="form-control"></select>
+                <select asp-for="Pegi" asp-items="@SystemWypozyczalniGier.Helpers.EnumerationsHelper.PegiSelectItems"
+                    class="form-control"></select>
                 <span asp-validation-for="Pegi" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Utwórz" class="btn btn-primary" />
             </div>
-        
-    </div>
-    <div class="form-column">
-        <label for="photo">Zdjęcie główne</label>
-        <div class="form-group">
-            <div class="file-input-container">
-                <div class="main-placeholder">
-                    <img src="~/images/placeholder.png" alt="Placeholder Image">
+
+        </div>
+        @Html.HiddenFor(model => model.MainPhotoName, new { Value = "defaultMainPhotoName" })
+        @Html.HiddenFor(model => model.Photo1Name, new { Value = "defaultPhoto1Name" })
+        <div class="form-column">
+            <label for="photo">Zdjęcie główne</label>
+            <div class="form-group">
+                <div class="main-div-parent">
+                    <div class="photo-placeholder photo-big main-div">
+                        <img src="~/images/add_photo.png" alt="Placeholder Image">
+                    </div>
+                    <input type="file" name="mainPhoto" id="main-photo-input" style="display: none;"
+                        accept=".jpg, .jpeg, .png, .svg, .gif" onchange="updateFileInput(this)" required/>
                 </div>
-                <input type="file" name="photo" id="photo-input" style="display: none;" onchange="updateFileName(this)" />
+                <small id="main-file-label">Wybierz zdjęcie do przesłania.</small>
             </div>
-            <small id="file-label">Wybierz zdjęcie do przesłania.</small>
+            <label for="photo">Miniaturki</label>
+            <div class="form-group">
+                <div class="thumbnails-div">
+                    <div class="photo-placeholder photo-small thumbnail-div">
+                        <img src="~/images/add_photo.png" alt="Placeholder Image">
+                    </div>
+                    <input type="file" name="thumbnailPhotos" id="thumbnail-photo-input" style="display: none;"
+                        accept=".jpg, .jpeg, .png, .svg, .gif" onchange="updateThumbnails(this)" multiple required />
+                </div>
+                <small id="thumbnails-file-label">Wybierz od jednej do czterech miniaturek</small>
+            </div>
         </div>
-        <label for="photo">Miniaturki</label>
-        <div class="form-group">
-            <input type="file" name="photo" />
-            <small>Wybierz od jednej do czterech miniaturek</small>
-        </div>
-    </div>
     </div>
 </form>
 
@@ -90,39 +104,10 @@
     <a asp-action="Index">Powrót</a>
 </div>
 
-<script>
-    function updateFileName(input) {
-        var fileName = input.value.split('\\').pop();
-        document.getElementById('file-label').textContent = fileName;
-
-        var file = input.files[0];
-
-        if (file) {
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-                var newImageContainer = document.createElement("div");
-                newImageContainer.className = "main-image";
-
-                var newImage = document.createElement("img");
-                newImage.src = e.target.result;
-                newImage.alt = "Uploaded Image";
-
-                newImageContainer.appendChild(newImage);
-
-                var oldPlaceholder = document.querySelector('.main-placeholder');
-                oldPlaceholder.parentNode.replaceChild(newImageContainer, oldPlaceholder);
-            };
-
-            reader.readAsDataURL(file);
-        }
-    }
-
-    document.querySelector('.main-placeholder').addEventListener('click', function () {
-        document.getElementById('photo-input').click();
-    });
-</script>
+ <script src="~/js/Games/Create.js"></script>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

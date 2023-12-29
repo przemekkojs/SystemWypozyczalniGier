@@ -27,7 +27,7 @@
         background-color: #f2f2f2;
     }
 
-    .main-thumbnail{
+    .main-thumbnail {
         max-width: 200px; 
         height: auto;
         border-radius: 10%;
@@ -83,9 +83,31 @@
         margin-right: 0;
     }
 
-    .main-placeholder {
-        width: 400px;
+    .main-div-parent {
+        width: 100%;
         height: 300px;
+        display: flex;
+    }
+
+    .main-div {
+        width: 300px;
+        height: 100%;
+    }
+
+    .photo-big {
+        width: 50%;
+        height: auto;  
+        border-radius: 10%;
+        overflow: hidden;
+    }
+    .photo-small {
+        width: 12.5%;
+        height: auto;  
+        border-radius: 10%;
+        overflow: hidden;
+    } 
+
+    .photo-placeholder {
         background-color: transparent;
         border: 2px dashed darkgray;
         border-radius: 10px;
@@ -96,14 +118,36 @@
         overflow: hidden;
     }
 
-    .main-image {
-        width: auto;
-        height: 100%;
-        border-radius: 10px; /* Make it round */
+    .photo-placeholder img {
+        max-width: 50%;
+        max-height: 50%;
+        object-fit: cover;
+    }
+
+    .photo-frame {
+        background-color: transparent;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
         overflow: hidden;
     }
 
-    .main-placeholder img {
+    .photo-frame img {
         max-width: 100%;
         max-height: 100%;
+        object-fit: cover;
+    }
+
+    .thumbnails-div {
+        width: 100%;
+        height: 150px;
+        display: flex;
+    }
+    
+    .thumbnail-div {
+        width: 150px;
+        height: 100%;
+        margin-right: 10px
     }
