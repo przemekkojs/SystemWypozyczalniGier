@@ -1,81 +1,75 @@
 @model IEnumerable<SystemWypozyczalniGier.Tables.Game>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Panel gier";
 }
 
-<h1>Index</h1>
+<head>
+    <link rel="stylesheet" href="~/css/Games/games-style.css" />
+</head>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1>Panel gier</h1>
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Publisher)
+                ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                Tytuł
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                Wydawca
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                Opis
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.QuantityInStock)
+                Cena
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.MaxQuantity)
+                Liczba dost. sztuk
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Accessibility)
+                Max. liczba sztuk
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Discount)
+                Dostępność
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Pegi)
+                Znizka 
             </th>
-
             <th>
-                @Html.DisplayNameFor(model => model.MainPhotoName)
+                PEGI
             </th>
-
             <th>
-                @Html.DisplayNameFor(model => model.Photo1Name)
+                Zdjęcie główne
             </th>
-
             <th>
-                @Html.DisplayNameFor(model => model.Photo2Name)
+                Liczba miniaturek
             </th>
-
             <th>
-                @Html.DisplayNameFor(model => model.Photo3Name)
+                <a class="button-link light-blue" asp-action="Create">
+                    <img src="~/images/plus.png" alt="Edytuj" />
+                </a>
             </th>
-
-            <th>
-                @Html.DisplayNameFor(model => model.Photo4Name)
-            </th>
-
-            <th></th>
-
-
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.GameId)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.GameId">@Html.DisplayFor(modelItem => item.Title)</a>
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Publisher.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
+                @Html.DisplayFor(modelItem => item.ShortDescription)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
@@ -97,29 +91,28 @@
             </td>
 
             <td>
-                <img src="~/uploads/@item.MainPhotoName"/>
+                <img class="main-thumbnail" src="~/uploads/@item.MainPhotoName"/>
             </td>
 
             <td>
-                <img src="~/uploads/@item.Photo1Name"/>
+                @{ 
+                    var counter = 0;
+                    counter += @item.Photo1Name == null ? 0 : 1;
+                    counter += @item.Photo2Name == null ? 0 : 1;
+                    counter += @item.Photo3Name == null ? 0 : 1;
+                    counter += @item.Photo4Name == null ? 0 : 1;
+                }
+                @counter
             </td>
 
             <td>
-                <img src="~/uploads/@item.Photo2Name"/>
-            </td>
-
-            <td>
-                <img src="~/uploads/@item.Photo3Name"/>
-            </td>
-
-            <td>
-                <img src="~/uploads/@item.Photo4Name"/>
-            </td>
-
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.GameId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.GameId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.GameId">Delete</a>
+                
+                <a class="button-link light-orange" asp-action="Edit" asp-route-id="@item.GameId">
+                    <img src="~/images/edit.png" alt="Edytuj" />
+                </a>
+                <a class="button-link light-red" asp-action="Delete" asp-route-id="@item.GameId">
+                    <img src="~/images/trash.png" alt="Usuń" />
+                </a>
             </td>
         </tr>
 }
