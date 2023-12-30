@@ -1,5 +1,3 @@
-let selectedFiles = [];
-
 function updateFileInput(input) {
     var fileName = input.value.split('\\').pop();
     document.getElementById('main-file-label').textContent = fileName;
@@ -20,10 +18,6 @@ function updateFileInput(input) {
 
             newImageContainer.appendChild(newImage);
             newImageContainer.addEventListener('click', function () {
-                // document.getElementById('main-photo-input').value = "";
-                // document.getElementById('main-file-label').textContent = "Wybierz zdjęcie do przesłania.";
-                // var placeholderNode = createPlaceholderNode(false)
-                // newImageContainer.parentNode.replaceChild(placeholderNode, newImageContainer);
                 document.getElementById('main-photo-input').click();
             });
 
@@ -84,20 +78,6 @@ function updateThumbnails(input) {
             newImageContainer.appendChild(newImage);
             newImageContainer.addEventListener('click', function () {
 
-                // var occurrenceIndex = findOccurrenceIndex(newImageContainer, '.thumbnail-div');
-            
-                // removeFromFileInputAt(occurrenceIndex);
-
-                // var placeholderNode = createPlaceholderNode(true)
-                
-                // var placeholder = newImageContainer.parentNode.querySelector('.photo-placeholder');
-
-                // if (!(placeholder)) newImageContainer.parentNode.appendChild(placeholderNode);
-
-                // let thumbnail = newImageContainer.parentNode.querySelector('.photo-frame');
-
-                // newImageContainer.parentNode.removeChild(newImageContainer);
-
                 document.getElementById('thumbnail-photo-input').click();  
             });
 
@@ -134,6 +114,25 @@ function removeFromFileInputAt(i) {
     }
     console.log(files);
 }
+
+function createNewCategoryNode(category) {
+    var node = document.createElement("div");
+    node.className = "category";
+    node.innerText = category.toString();
+    return node;
+}
+
+document.getElementById('categories').addEventListener('change', function () {
+    var selectedCategories = Array.from(this.selectedOptions).map(option => option.value);
+    var parentDiv = document.getElementById("categories-div");
+    while (parentDiv.firstChild) {
+        parentDiv.removeChild(parentDiv.firstChild);
+    }
+    for (var selection of selectedCategories) {
+        parentDiv.appendChild(createNewCategoryNode(selection));
+    }
+});
+
 
 document.querySelector('.main-div').addEventListener('click', function () {
     document.getElementById('main-photo-input').click();

@@ -1,11 +1,12 @@
 @model SystemWypozyczalniGier.Tables.Game
+@using SystemWypozyczalniGier.Enumerations
 
 @{
     ViewData["Title"] = "Create";
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/games-style.css" />
+    <link rel="stylesheet" href="~/css/Games/games-style.css" />
 </head>
 
 <h1>Dodaj nową grę</h1>
@@ -54,12 +55,13 @@
                     class="form-control"></select>
                 <span asp-validation-for="Accessibility" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            @* <div class="form-group">
                 <label asp-for="Discount" class="control-label">Przecena</label>
                 <input asp-for="Discount" class="form-control"
                     placeholder="Podaj liczbę z przedziału od 0.0 do 1.0, np. 0.15" />
                 <span asp-validation-for="Discount" class="text-danger"></span>
-            </div>
+            </div> *@
+            @Html.HiddenFor(model => model.Discount, new { Value = 0.00 })
             <div class="form-group">
                 <label asp-for="Pegi" class="control-label">PEGI</label>
                 <select asp-for="Pegi" asp-items="@SystemWypozyczalniGier.Helpers.EnumerationsHelper.PegiSelectItems"
@@ -74,18 +76,18 @@
         @Html.HiddenFor(model => model.MainPhotoName, new { Value = "defaultMainPhotoName" })
         @Html.HiddenFor(model => model.Photo1Name, new { Value = "defaultPhoto1Name" })
         <div class="form-column">
-            <label for="photo">Zdjęcie główne</label>
+            <label for="mainPhoto">Zdjęcie główne</label>
             <div class="form-group">
                 <div class="main-div-parent">
                     <div class="photo-placeholder photo-big main-div">
                         <img src="~/images/add_photo.png" alt="Placeholder Image">
                     </div>
                     <input type="file" name="mainPhoto" id="main-photo-input" style="display: none;"
-                        accept=".jpg, .jpeg, .png, .svg, .gif" onchange="updateFileInput(this)" required/>
+                        accept=".jpg, .jpeg, .png, .svg, .gif" onchange="updateFileInput(this)" required />
                 </div>
                 <small id="main-file-label">Wybierz zdjęcie do przesłania.</small>
             </div>
-            <label for="photo">Miniaturki</label>
+            <label for="thumbnailPhotos">Miniaturki</label>
             <div class="form-group">
                 <div class="thumbnails-div">
                     <div class="photo-placeholder photo-small thumbnail-div">
@@ -96,6 +98,16 @@
                 </div>
                 <small id="thumbnails-file-label">Wybierz od jednej do czterech miniaturek</small>
             </div>
+            <label for="categories">Kategorie</label>
+            <div class="form-group">
+                <select id="categories" name="categories" multiple>
+                    @foreach (var category in Enum.GetValues(typeof(Category)))
+                    {
+                        <option value="@category">@category</option>
+                    }
+                </select>
+                <div id="categories-div"></div>
+            </div>
         </div>
     </div>
 </form>
@@ -104,7 +116,8 @@
     <a asp-action="Index">Powrót</a>
 </div>
 
- <script src="~/js/Games/Create.js"></script>
+<script src="~/js/Games/Create.js"></script>
+
 
 @section Scripts {
     @{

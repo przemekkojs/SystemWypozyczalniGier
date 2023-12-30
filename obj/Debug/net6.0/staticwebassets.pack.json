@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/Games/games-style.css",
+      "PackagePath": "staticwebassets/css/Games/games-style.css"
+    },
+    {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
       "PackagePath": "staticwebassets/css/cart-style.css"
     },
@@ -19,10 +23,6 @@
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
       "PackagePath": "staticwebassets/css/game-details-style.css"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/games-style.css",
-      "PackagePath": "staticwebassets/css/games-style.css"
     },
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/site.css",
@@ -315,38 +315,6 @@
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201108089_0.png",
-      "PackagePath": "staticwebassets/uploads/20231229201108089_0.png"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201108092_1.png",
-      "PackagePath": "staticwebassets/uploads/20231229201108092_1.png"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322797_0.png",
-      "PackagePath": "staticwebassets/uploads/20231229201322797_0.png"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322798_1.jpg",
-      "PackagePath": "staticwebassets/uploads/20231229201322798_1.jpg"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229201322799_2.png",
-      "PackagePath": "staticwebassets/uploads/20231229201322799_2.png"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030310_0.png",
-      "PackagePath": "staticwebassets/uploads/20231229203030310_0.png"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030313_1.jpg",
-      "PackagePath": "staticwebassets/uploads/20231229203030313_1.jpg"
-    },
-    {
-      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/20231229203030314_2.jpeg",
-      "PackagePath": "staticwebassets/uploads/20231229203030314_2.jpeg"
     },
     {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SystemWypozyczalniGier.Database;
 using SystemWypozyczalniGier.Tables;
+using SystemWypozyczalniGier.Enumerations;
 
 namespace SystemWypozyczalniGier.Controllers
 {
@@ -60,100 +61,91 @@ namespace SystemWypozyczalniGier.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Game model, IFormFile mainPhoto, List<IFormFile> thumbnailPhotos)
+        public async Task<IActionResult> Create(Game model, IFormFile mainPhoto, List<IFormFile> thumbnailPhotos, List<Category> categories)
         {
-            if (mainPhoto != null && mainPhoto.Length > 0)
-            {   
-                string timestamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-                string fileName = $"{timestamp}_0{Path.GetExtension(mainPhoto.FileName).ToLowerInvariant()}";
-
-                var rootPath = Path.GetFullPath("wwwroot");
-                var uploadPath = Path.Combine(rootPath, "uploads");
-                var filePath = Path.Combine(uploadPath, fileName);
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+            if (ModelState.IsValid)
+            {
+                string mainFilePath, mainFileName;
+                if (mainPhoto != null && mainPhoto.Length > 0)
                 {
-                    mainPhoto.CopyTo(fileStream);
-                    model.MainPhotoName = fileName;
-                }
-            }
-            else
-            {
-                return RedirectToAction(nameof(Create));
-            }
+                    string guid = Guid.NewGuid().ToString("N");
+                    string fileName = $"{guid}_0{Path.GetExtension(mainPhoto.FileName).ToLowerInvariant()}";
 
-            if (thumbnailPhotos != null && thumbnailPhotos.Count > 0)
-            {
-                int photoIndex = 1;
-                foreach (var thumbnailPhoto in thumbnailPhotos)
-                {   
-                    string timestamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-                    string fileName = $"{timestamp}_{photoIndex}{Path.GetExtension(thumbnailPhoto.FileName).ToLowerInvariant()}";
                     var rootPath = Path.GetFullPath("wwwroot");
                     var uploadPath = Path.Combine(rootPath, "uploads");
                     var filePath = Path.Combine(uploadPath, fileName);
+                    mainFilePath = filePath;
+                    mainFileName = fileName;
+                }
+                else
+                {
+                    return RedirectToAction(nameof(Create));
+                }
 
-                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                if (thumbnailPhotos != null && thumbnailPhotos.Count > 0)
+                {
+                    int photoIndex = 1;
+                    foreach (var thumbnailPhoto in thumbnailPhotos)
                     {
-                        thumbnailPhoto.CopyTo(fileStream);
-                        switch (photoIndex)
+                        string guid = Guid.NewGuid().ToString("N");
+                        string fileName = $"{guid}_{photoIndex}{Path.GetExtension(thumbnailPhoto.FileName).ToLowerInvariant()}";
+                        var rootPath = Path.GetFullPath("wwwroot");
+                        var uploadPath = Path.Combine(rootPath, "uploads");
+                        var filePath = Path.Combine(uploadPath, fileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
                         {
-                            case 1:
-                                model.Photo1Name = fileName;
-                                break;
-                            case 2:
-                                model.Photo2Name = fileName;
-                                break;
-                            case 3:
-                                model.Photo3Name = fileName;
-                                break;
-                            default:
-                                model.Photo4Name = fileName;
-                                break;
+                            thumbnailPhoto.CopyTo(fileStream);
+                            switch (photoIndex)
+                            {
+                                case 1:
+                                    model.Photo1Name = fileName;
+                                    break;
+                                case 2:
+                                    model.Photo2Name = fileName;
+                                    break;
+                                case 3:
+                                    model.Photo3Name = fileName;
+                                    break;
+                                default:
+                                    model.Photo4Name = fileName;
+                                    break;
+                            }
+
                         }
 
+                        photoIndex++;
                     }
-                    photoIndex++;
+                    using (var fileStream = new FileStream(mainFilePath, FileMode.Create))
+                    {
+                        mainPhoto.CopyTo(fileStream);
+                        model.MainPhotoName = mainFileName;
+                    }
                 }
-            }
-            else
-            {
-                return RedirectToAction(nameof(Create));
-            }
-
-            if (ModelState.IsValid)
-            {
-                var game = new Game
+                else
                 {
-                    PublisherId = model.PublisherId,
-                    Title = model.Title,
-                    Description = model.Description,
-                    Price = model.Price,
-                    QuantityInStock = model.QuantityInStock,
-                    MaxQuantity = model.MaxQuantity,
-                    Accessibility = model.Accessibility,
-                    Discount = model.Discount,
-                    Pegi = model.Pegi,
-                    MainPhotoName = model.MainPhotoName,
-                    Photo1Name = model.Photo1Name,
-                    Photo2Name = model.Photo2Name,
-                    Photo3Name = model.Photo3Name,
-                    Photo4Name = model.Photo4Name,
-                };
+                    return RedirectToAction(nameof(Create));
+                }
 
-                _context.Add(game);
+                _context.Add(model);
                 await _context.SaveChangesAsync();
+
+                if (categories != null && categories.Any())
+                {
+                    foreach (Category category in categories)
+                    {
+                        var entry = new GameCategory
+                        {
+                            GameId = model.GameId,
+                            Category = category
+                        };
+
+                        _context.Add(entry);
+                    }
+                    await _context.SaveChangesAsync();
+                }
                 return RedirectToAction("Index");
             }
-            //
-            foreach (var key in ModelState.Keys)
-            {
-                var modelStateEntry = ModelState[key];
-                foreach (var error in modelStateEntry.Errors)
-                {
-                    Console.WriteLine($"Field: {key}, Error: {error.ErrorMessage}");
-                }
-            }
-            //
             return RedirectToAction(nameof(Create));
         }
 
@@ -173,31 +165,146 @@ namespace SystemWypozyczalniGier.Controllers
                 return NotFound();
             }
             ViewData["PublisherId"] = new SelectList(_context.Publishers, "PublisherId", "Name", game.PublisherId);
+            ViewData["Categories"] = new SelectList(_context.Categories.Where(x => x.GameId == game.GameId), "GameId", "Category");
+
             return View(game);
         }
 
         // POST: Games/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("GameId,PublisherId,Title,Description,Price,QuantityInStock,MaxQuantity,Accessibility,Discount,Pegi")] Game game)
+        public async Task<IActionResult> Edit(int id, Game game, [FromForm] IFormFile? mainPhoto, List<IFormFile> thumbnailPhotos, List<Category> categories)
         {
-            if (id != game.GameId)
+            var existingGame = await _context.Games
+                .FirstOrDefaultAsync(g => g.GameId == id);
+
+            if (existingGame == null)
             {
                 return NotFound();
             }
 
+            existingGame.PublisherId = game.PublisherId;
+            existingGame.Title = game.Title;
+            existingGame.Description = game.Description;
+            existingGame.Price = game.Price;
+            existingGame.QuantityInStock = game.QuantityInStock;
+            existingGame.MaxQuantity = game.MaxQuantity;
+            existingGame.Accessibility = game.Accessibility;
+            existingGame.Pegi = game.Pegi;
+
+
+
             if (ModelState.IsValid)
             {
+                if (mainPhoto != null && mainPhoto.Length > 0)
+                {
+                   
+                    var rp = Path.GetFullPath("wwwroot");
+                    var up = Path.Combine(rp, "uploads");
+                    var fp = Path.Combine(up, existingGame.MainPhotoName);
+                    Console.WriteLine(fp);
+
+                    if (System.IO.File.Exists(fp))
+                    {
+                        System.IO.File.Delete(fp);
+                    }
+                
+
+                    string guid = Guid.NewGuid().ToString("N");
+                    string fileName = $"{guid}_0{Path.GetExtension(mainPhoto.FileName).ToLowerInvariant()}";
+
+                    var rootPath = Path.GetFullPath("wwwroot");
+                    var uploadPath = Path.Combine(rootPath, "uploads");
+                    var filePath = Path.Combine(uploadPath, fileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        mainPhoto.CopyTo(fileStream);
+                        existingGame.MainPhotoName = fileName;
+                    }
+                }
+
+                if (thumbnailPhotos != null && thumbnailPhotos.Count > 0)
+                {
+                    foreach (string? fileName in new[] { existingGame.Photo1Name, existingGame.Photo2Name,
+                        existingGame.Photo3Name, existingGame.Photo4Name})
+                    {
+                        if (!string.IsNullOrEmpty(fileName))
+                        {
+                            var rootPath = Path.GetFullPath("wwwroot");
+                            var uploadPath = Path.Combine(rootPath, "uploads");
+                            var filePath = Path.Combine(uploadPath, fileName);
+                            Console.WriteLine(filePath);
+                            if (System.IO.File.Exists(filePath))
+                            {
+                                System.IO.File.Delete(filePath);
+                            }
+                        }
+
+                    }
+                    existingGame.Photo2Name = null;
+                    existingGame.Photo3Name = null;
+                    existingGame.Photo4Name = null;
+                    int photoIndex = 1;
+                    foreach (var thumbnailPhoto in thumbnailPhotos)
+                    {
+                        string guid = Guid.NewGuid().ToString("N");
+                        string fileName = $"{guid}_{photoIndex}{Path.GetExtension(thumbnailPhoto.FileName).ToLowerInvariant()}";
+                        var rootPath = Path.GetFullPath("wwwroot");
+                        var uploadPath = Path.Combine(rootPath, "uploads");
+                        var filePath = Path.Combine(uploadPath, fileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            thumbnailPhoto.CopyTo(fileStream);
+                            switch (photoIndex)
+                            {
+                                case 1:
+                                    existingGame.Photo1Name = fileName;
+                                    break;
+                                case 2:
+                                    existingGame.Photo2Name = fileName;
+                                    break;
+                                case 3:
+                                    existingGame.Photo3Name = fileName;
+                                    break;
+                                default:
+                                    existingGame.Photo4Name = fileName;
+                                    break;
+                            }
+
+                        }
+                        photoIndex++;
+                    }
+                }
+
                 try
                 {
-                    _context.Update(game);
+                    _context.Update(existingGame);
+                    await _context.SaveChangesAsync();
+
+                    var categoriesToRemove = _context.Categories
+                    .Where(category => category.GameId == existingGame.GameId)
+                    .ToList();
+
+                    _context.Categories.RemoveRange(categoriesToRemove);
+
+                    foreach (Category category in categories)
+                    {
+                        var entry = new GameCategory
+                        {
+                            GameId = existingGame.GameId,
+                            Category = category
+                        };
+
+                        _context.Add(entry);
+                    }
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!GameExists(game.GameId))
+                    if (!GameExists(existingGame.GameId))
                     {
                         return NotFound();
                     }
@@ -206,10 +313,11 @@ namespace SystemWypozyczalniGier.Controllers
                         throw;
                     }
                 }
+
+
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PublisherId"] = new SelectList(_context.Publishers, "PublisherId", "Name", game.PublisherId);
-            return View(game);
+            return RedirectToAction(nameof(Edit));
         }
 
         // GET: Games/Delete/5

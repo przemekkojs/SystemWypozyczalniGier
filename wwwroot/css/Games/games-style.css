@@ -151,3 +151,21 @@
         height: 100%;
         margin-right: 10px
     }
+
+    #categories-div {
+        width: 100%;
+        height: max-content;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8px;
+    }
+
+    .category {
+        width: max-content;
+        height: 40px;
+        margin: 6px;
+        padding: 6px;
+        border-radius: 8px;
+        background-color: #b7c9e2;
+      }
