@@ -28,9 +28,9 @@
     }
 
     .main-thumbnail {
-        max-width: 200px; 
+        max-width: 150px; 
         height: auto;
-        border-radius: 10%;
+        border-radius: 16px;
     }
 
     .button-link {

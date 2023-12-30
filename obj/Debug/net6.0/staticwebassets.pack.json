@@ -317,6 +317,22 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png",
+      "PackagePath": "staticwebassets/uploads/17e98cea57164a5796122cf1531f9eec_0.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png",
+      "PackagePath": "staticwebassets/uploads/3e216dac1e31456399dbd6e45157078a_3.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
+      "PackagePath": "staticwebassets/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
+      "PackagePath": "staticwebassets/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg"
+    },
+    {
       "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
       "PackagePath": "staticwebassets/uploads/minecraft_1.png"
     },

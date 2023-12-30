@@ -1,87 +1,125 @@
 @model SystemWypozyczalniGier.Tables.Game
+@using SystemWypozyczalniGier.Enumerations
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<head>
+    <link rel="stylesheet" href="~/css/Games/games-style.css" />
+</head>
+
+<h1>Szczegóły gry</h1>
+
+<hr />
+
+<div class="form-table">
+    <div class="form-column">
+
+        <div class="form-group">
+            <label asp-for="Title" class="control-label">Tytuł</label>
+            <span class="form-control">@Model.Title</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PublisherId" class="control-label">Wydawca</label>
+            <span class="form-control">@Model.PublisherId</span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description" class="control-label">Opis</label>
+            <span class="form-control">@Model.Description</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="control-label">Cena</label>
+            <span class="form-control">@Model.Price</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="QuantityInStock" class="control-label">Liczba dostępnych sztuk</label>
+            <span class="form-control">@Model.QuantityInStock</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MaxQuantity" class="control-label">Maksymalna liczba sztuk</label>
+            <span class="form-control">@Model.MaxQuantity</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Accessibility" class="control-label">Dostępność</label>
+            <span class="form-control">@Model.Accessibility</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Discount" class="control-label">Przecena</label>
+            <span class="form-control">@Model.Discount</span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Pegi" class="control-label">PEGI</label>
+            <span class="form-control">@Model.Pegi</span>
+        </div>
+    </div>
+
+    <div class="form-column">
+        <label for="mainPhoto">Zdjęcie główne</label>
+        <div class="form-group">
+            <div class="main-div-parent">
+                <div class="photo-frame photo-big main-div">
+                    <img src="~/uploads/@Model.MainPhotoName" alt="Main Image">
+                </div>
+            </div>
+        </div>
+        <label for="thumbnailPhotos">Miniaturki</label>
+        <div class="form-group">
+            <div class="thumbnails-div">
+                @{
+                    var counter = 0;
+                }
+                @foreach (var thumbnail in new[] { Model.Photo1Name, Model.Photo2Name, Model.Photo3Name,
+                Model.Photo4Name })
+                {
+                    @if (!string.IsNullOrEmpty(thumbnail))
+                    {
+                        counter++;
+                        <div class="photo-frame photo-small thumbnail-div">
+                            <img src="~/uploads/@thumbnail" alt="Thumbnail Image">
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+        <label for="categories">Kategorie</label>
+        <div class="form-group">
+            <div id="categories-div"></div>
+        </div>
+    </div>
+</div>
 
 <div>
-    <h4>Game</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Publisher)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Publisher.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.QuantityInStock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.QuantityInStock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MaxQuantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MaxQuantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Accessibility)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Accessibility)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Discount)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Discount)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Pegi)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Pegi)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.MainPhotoName)
-        </dt>
-        <dd class="col-sm-10">
-            <img src="~/uploads/@Model.MainPhotoName" />
-        </dd>
-        <dt class="col-sm-2">
-            <span>Zdj�cia: </span>
-        </dt>
-        <dd>
-            <img src="~/uploads/@Model.Photo1Name" />
-            <img src="~/uploads/@Model.Photo2Name" />
-            <img src="~/uploads/@Model.Photo3Name" />
-            <img src="~/uploads/@Model.Photo4Name" />
-        </dd>
-    </dl>
+    <a asp-action="Index">Powrót</a>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.GameId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<script src="~/js/Games/Create.js"></script>
+<script>
+    var parentDiv = document.getElementById("categories-div");
+    var dropdown = document.getElementById("categories");
+    var currentCategories = [];
+    @foreach (var gameCategory in (IEnumerable<SelectListItem>) ViewBag.Categories)
+    {       
+        <text>
+            parentDiv.appendChild(createNewCategoryNode('@gameCategory.Text'));
+            currentCategories.push('@gameCategory.Text');
+        </text>
+    }
+    for (var category of currentCategories) {
+        for (var i = 0; i < dropdown.options.length; i++) {
+            if (dropdown.options[i].value.toString() === category) {
+                dropdown.options[i].selected = true;
+                break;
+            }
+    }
+}
+    
+    
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

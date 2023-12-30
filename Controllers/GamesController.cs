@@ -35,13 +35,13 @@ namespace SystemWypozyczalniGier.Controllers
                 return NotFound();
             }
 
-            var game = await _context.Games
-                .Include(g => g.Publisher)
-                .FirstOrDefaultAsync(m => m.GameId == id);
+            var game = await _context.Games.FindAsync(id);
             if (game == null)
             {
                 return NotFound();
             }
+            ViewData["PublisherId"] = new SelectList(_context.Publishers, "PublisherId", "Name", game.PublisherId);
+            ViewData["Categories"] = new SelectList(_context.Categories.Where(x => x.GameId == game.GameId), "GameId", "Category");
 
             return View(game);
         }
@@ -188,6 +188,7 @@ namespace SystemWypozyczalniGier.Controllers
             existingGame.Title = game.Title;
             existingGame.Description = game.Description;
             existingGame.Price = game.Price;
+            existingGame.Discount = game.Discount;
             existingGame.QuantityInStock = game.QuantityInStock;
             existingGame.MaxQuantity = game.MaxQuantity;
             existingGame.Accessibility = game.Accessibility;
@@ -203,7 +204,6 @@ namespace SystemWypozyczalniGier.Controllers
                     var rp = Path.GetFullPath("wwwroot");
                     var up = Path.Combine(rp, "uploads");
                     var fp = Path.Combine(up, existingGame.MainPhotoName);
-                    Console.WriteLine(fp);
 
                     if (System.IO.File.Exists(fp))
                     {
@@ -235,7 +235,6 @@ namespace SystemWypozyczalniGier.Controllers
                             var rootPath = Path.GetFullPath("wwwroot");
                             var uploadPath = Path.Combine(rootPath, "uploads");
                             var filePath = Path.Combine(uploadPath, fileName);
-                            Console.WriteLine(filePath);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
