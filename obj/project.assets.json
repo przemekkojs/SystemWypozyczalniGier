@@ -11059,19 +11059,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/mateusz/.nuget/packages/": {}
+    "/Users/lukasz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+      "projectUniqueName": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
       "projectName": "SystemWypozyczalniGier",
-      "projectPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
-      "packagesPath": "/Users/mateusz/.nuget/packages/",
-      "outputPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/",
+      "projectPath": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+      "packagesPath": "/Users/lukasz/.nuget/packages/",
+      "outputPath": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mateusz/.nuget/NuGet/NuGet.Config"
+        "/Users/lukasz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -11137,6 +11137,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11145,7 +11159,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,343 +1,351 @@
 {
   "Files": [
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css",
       "PackagePath": "staticwebassets/SystemWypozyczalniGier.bundle.scp.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/.DS_Store",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/.DS_Store",
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/Games/games-style.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/Games/games-style.css",
       "PackagePath": "staticwebassets/css/Games/games-style.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
       "PackagePath": "staticwebassets/css/cart-style.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/fake-payment-style.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/fake-payment-style.css",
       "PackagePath": "staticwebassets/css/fake-payment-style.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
       "PackagePath": "staticwebassets/css/game-details-style.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/site.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/favicon.ico",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/add_photo.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/add_photo.png",
       "PackagePath": "staticwebassets/images/add_photo.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/coin.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/coin.png",
       "PackagePath": "staticwebassets/images/coin.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/discount.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/discount.png",
       "PackagePath": "staticwebassets/images/discount.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/edit.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/edit.png",
       "PackagePath": "staticwebassets/images/edit.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_cart.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/empty_cart.png",
       "PackagePath": "staticwebassets/images/empty_cart.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_star.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/empty_star.png",
       "PackagePath": "staticwebassets/images/empty_star.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/full_star.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/full_star.png",
       "PackagePath": "staticwebassets/images/full_star.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/half_star.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/half_star.png",
       "PackagePath": "staticwebassets/images/half_star.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/info.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/info.png",
       "PackagePath": "staticwebassets/images/info.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/no_image.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/no_image.png",
       "PackagePath": "staticwebassets/images/no_image.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/plus.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/plus.png",
       "PackagePath": "staticwebassets/images/plus.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/trash.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/trash.png",
       "PackagePath": "staticwebassets/images/trash.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/Games/Create.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/Games/Create.js",
       "PackagePath": "staticwebassets/js/Games/Create.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/site.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png",
       "PackagePath": "staticwebassets/uploads/17e98cea57164a5796122cf1531f9eec_0.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png",
       "PackagePath": "staticwebassets/uploads/3e216dac1e31456399dbd6e45157078a_3.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
       "PackagePath": "staticwebassets/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/4aa7e03120674b949512028191e10be9_1.jpeg",
+      "PackagePath": "staticwebassets/uploads/4aa7e03120674b949512028191e10be9_1.jpeg"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
       "PackagePath": "staticwebassets/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/c0e14992ed0e4a33b01744ab79353cc6_0.png",
+      "PackagePath": "staticwebassets/uploads/c0e14992ed0e4a33b01744ab79353cc6_0.png"
+    },
+    {
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
       "PackagePath": "staticwebassets/uploads/minecraft_1.png"
     },
     {
-      "Id": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_2.png",
+      "Id": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_2.png",
       "PackagePath": "staticwebassets/uploads/minecraft_2.png"
     },
     {
