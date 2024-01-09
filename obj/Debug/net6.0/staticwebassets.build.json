@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d8fb4s5A0pcDF5b9PMkiaukM4hnF2lyRExwGGZLoBmo=",
+  "Hash": "hAVvbbLYCzBeGn39Uu5Vo1HWxjDM9Z5msEcAvxOiJRE=",
   "Source": "SystemWypozyczalniGier",
   "BasePath": "_content/SystemWypozyczalniGier",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SystemWypozyczalniGier/wwwroot",
       "Source": "SystemWypozyczalniGier",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/SystemWypozyczalniGier.styles.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/SystemWypozyczalniGier.styles.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "SystemWypozyczalniGier.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/SystemWypozyczalniGier.styles.css"
+      "OriginalItemSpec": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/bundle/SystemWypozyczalniGier.styles.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "SystemWypozyczalniGier.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css"
+      "OriginalItemSpec": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/Debug/net6.0/scopedcss/projectbundle/SystemWypozyczalniGier.bundle.scp.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/.DS_Store",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/.DS_Store",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/cart-style.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "css/cart-style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/css/cart-style.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/fake-payment-style.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/fake-payment-style.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "css/fake-payment-style.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/css/fake-payment-style.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/game-details-style.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "css/game-details-style.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/css/game-details-style.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/Games/games-style.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/Games/games-style.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "css/Games/games-style.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/css/Games/games-style.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/css/site.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/css/site.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/favicon.ico",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/favicon.ico",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/add_photo.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/add_photo.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/add_photo.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/images/add_photo.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/coin.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/coin.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/coin.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/images/coin.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/discount.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/discount.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/discount.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/images/discount.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/edit.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/edit.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/edit.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/images/edit.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/empty_cart.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_cart.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/empty_cart.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/images/empty_cart.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/empty_star.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/empty_star.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/empty_star.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/images/empty_star.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/full_star.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/full_star.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/full_star.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/images/full_star.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/half_star.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/half_star.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/half_star.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/images/half_star.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/info.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/info.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/info.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/images/info.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/no_image.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/no_image.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/no_image.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/no_image.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/plus.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/plus.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/plus.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/images/plus.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/images/trash.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/images/trash.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "images/trash.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/images/trash.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/Games/Create.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/Games/Create.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "js/Games/Create.js",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/js/Games/Create.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/js/site.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/js/site.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/17e98cea57164a5796122cf1531f9eec_0.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot/uploads/17e98cea57164a5796122cf1531f9eec_0.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/3e216dac1e31456399dbd6e45157078a_3.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot/uploads/3e216dac1e31456399dbd6e45157078a_3.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/minecraft_1.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot/uploads/minecraft_1.png"
     },
     {
-      "Identity": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/uploads/minecraft_2.png",
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_2.png",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/wwwroot/",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
       "BasePath": "_content/SystemWypozyczalniGier",
       "RelativePath": "uploads/minecraft_2.png",
       "AssetKind": "All",

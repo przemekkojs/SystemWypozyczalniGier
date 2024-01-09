@@ -9,201 +9,201 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SystemWypozyczalniGier
 build_property.RootNamespace = SystemWypozyczalniGier
-build_property.ProjectDir = /Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/
+build_property.ProjectDir = /Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/lukasz/Documents/GitHub/SystemWypozyczalniGier
+build_property.MSBuildProjectDirectory = /Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/Home/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/Home/Privacy.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/Shared/Error.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/_ViewImports.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/_ViewStart.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Accounts/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Accounts/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Accounts/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Accounts/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Accounts/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Cart/FakePayment.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Cart/FakePayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9GYWtlUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Cart/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/GameCategories/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/GameCategories/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/GameCategories/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/GameCategories/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/GameCategories/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Games/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Games/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Games/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Games/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Games/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Home/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Home/Privacy.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Publishers/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Publishers/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Publishers/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Publishers/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Publishers/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Rentals/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Rentals/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Rentals/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Rentals/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Rentals/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Reviews/Create.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Reviews/Delete.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Reviews/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Reviews/Edit.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Reviews/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Shared/Error.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Shop/Details.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shop/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Shop/Index.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/_ViewImports.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/_ViewStart.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Pages/Shared/_Layout.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rn3k8hhcwo
 
-[/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/Views/Shared/_Layout.cshtml]
+[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t0kn7lo4sh

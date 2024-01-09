@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SystemWypozyczalniGier/1.0.0": {
         "dependencies": {
+          "MessagePackAnalyzer": "2.1.152",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.25",

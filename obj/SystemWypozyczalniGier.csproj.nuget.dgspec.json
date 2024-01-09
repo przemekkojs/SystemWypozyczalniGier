@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {}
+    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {}
   },
   "projects": {
-    "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {
+    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+        "projectUniqueName": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
         "projectName": "SystemWypozyczalniGier",
-        "projectPath": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
-        "packagesPath": "/Users/lukasz/.nuget/packages/",
-        "outputPath": "/Users/lukasz/Documents/GitHub/SystemWypozyczalniGier/obj/",
+        "projectPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+        "packagesPath": "/Users/mateusz/.nuget/packages/",
+        "outputPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lukasz/.nuget/NuGet/NuGet.Config"
+          "/Users/mateusz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MessagePackAnalyzer": {
+              "target": "Package",
+              "version": "[2.1.152, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.25, )"
@@ -76,20 +80,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -98,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
