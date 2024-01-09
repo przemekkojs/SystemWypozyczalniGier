@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hAVvbbLYCzBeGn39Uu5Vo1HWxjDM9Z5msEcAvxOiJRE=",
+  "Hash": "CF/EKRuNJe1YojwYkt3b9mZddJMorAGVopvVULNsJz8=",
   "Source": "SystemWypozyczalniGier",
   "BasePath": "_content/SystemWypozyczalniGier",
   "Mode": "Default",
@@ -1428,6 +1428,23 @@
       "OriginalItemSpec": "wwwroot/uploads/4988e05bbbf6425c892e110dd232f64d_2.jpeg"
     },
     {
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/4aa7e03120674b949512028191e10be9_1.jpeg",
+      "SourceId": "SystemWypozyczalniGier",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
+      "BasePath": "_content/SystemWypozyczalniGier",
+      "RelativePath": "uploads/4aa7e03120674b949512028191e10be9_1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/4aa7e03120674b949512028191e10be9_1.jpeg"
+    },
+    {
       "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg",
       "SourceId": "SystemWypozyczalniGier",
       "SourceType": "Discovered",
@@ -1443,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/923a45a1c7a8488d99aa52b335c1b52c_1.jpg"
+    },
+    {
+      "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/c0e14992ed0e4a33b01744ab79353cc6_0.png",
+      "SourceId": "SystemWypozyczalniGier",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/",
+      "BasePath": "_content/SystemWypozyczalniGier",
+      "RelativePath": "uploads/c0e14992ed0e4a33b01744ab79353cc6_0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/c0e14992ed0e4a33b01744ab79353cc6_0.png"
     },
     {
       "Identity": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/wwwroot/uploads/minecraft_1.png",

@@ -12,9 +12,7 @@
         <img src="~/uploads/@Model.MainPhotoName" class="main-image">
 
         <div class="row">
-            <img src="~/uploads/@Model.Photo1Name" class="mini-image">
-
-            @foreach (var item in new List<string?>() { Model.MainPhotoName, Model.Photo1Name, Model.Photo2Name, Model.Photo3Name, Model.Photo4Name })
+            @foreach (var item in new List<string?>() {Model.MainPhotoName, Model.Photo1Name, Model.Photo2Name, Model.Photo3Name, Model.Photo4Name })
             {
                 @if (item is not null)
                 {
@@ -99,11 +97,20 @@
         const miniImages = document.querySelectorAll('.mini-image')
 
         function changeMainImage(event) {
+            miniImages.forEach(function (miniImage) {
+                if (miniImage.src == mainImage.src)
+                    miniImage.hidden = false;
+            })
+
+            event.target.hidden = true;
             mainImage.src = event.target.src;
         }
 
         miniImages.forEach(function (miniImage) {
             miniImage.addEventListener('click', changeMainImage)
+
+            if (miniImage.src == mainImage.src)
+                miniImage.hidden = true;
         })
     });
 </script>
