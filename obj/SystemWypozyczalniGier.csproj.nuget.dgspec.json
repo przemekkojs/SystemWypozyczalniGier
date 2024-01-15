@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {}
+    "C:\\Programming\\C sharp\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj": {}
   },
   "projects": {
-    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {
+    "C:\\Programming\\C sharp\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+        "projectUniqueName": "C:\\Programming\\C sharp\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj",
         "projectName": "SystemWypozyczalniGier",
-        "projectPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
-        "packagesPath": "/Users/mateusz/.nuget/packages/",
-        "outputPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/",
+        "projectPath": "C:\\Programming\\C sharp\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj",
+        "packagesPath": "C:\\Users\\przem\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\C sharp\\SystemWypozyczalniGier\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mateusz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\przem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

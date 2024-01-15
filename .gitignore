@@ -1,0 +1,6 @@
+/bin/*
+/obj/*
+/.vs/*
+SystemWypozyczalniGier.csproj
+SystemWypozyczalniGier.csproj.user
+SystemWypozyczalniGier.sln

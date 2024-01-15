@@ -5,205 +5,204 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SystemWypozyczalniGier
 build_property.RootNamespace = SystemWypozyczalniGier
-build_property.ProjectDir = /Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/
+build_property.ProjectDir = C:\Programming\C sharp\SystemWypozyczalniGier\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier
+build_property.MSBuildProjectDirectory = C:\Programming\C sharp\SystemWypozyczalniGier
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvQ3JlYXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRGVsZXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRGV0YWlscy5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvRWRpdC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Accounts/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvSW5kZXguY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Cart/FakePayment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9GYWtlUGF5bWVudC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Cart/FakePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxGYWtlUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvQ3JlYXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/GameCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUNhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRGVsZXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/GameCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUNhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRGV0YWlscy5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/GameCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUNhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvRWRpdC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/GameCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUNhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/GameCategories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZUNhdGVnb3JpZXMvSW5kZXguY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/GameCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUNhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvQ3JlYXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Games/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRGVsZXRlLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Games/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRGV0YWlscy5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Games/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvRWRpdC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Games/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Games/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FtZXMvSW5kZXguY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Games/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZXRhaWxzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Publishers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9DcmVhdGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Rentals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9EZWxldGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Rentals/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9EZXRhaWxzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Rentals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9FZGl0LmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Rentals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Rentals/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVudGFscy9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Rentals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9DcmVhdGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZWxldGUuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Reviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9EZXRhaWxzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Reviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9FZGl0LmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Reviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Reviews/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3cy9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Reviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shop/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9EZXRhaWxzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Shop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shop/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9JbmRleC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-rn3k8hhcwo
+[C:/Programming/C sharp/SystemWypozyczalniGier/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g23oow7dav
 
-[/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-t0kn7lo4sh
+[C:/Programming/C sharp/SystemWypozyczalniGier/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w71mm3jabv
