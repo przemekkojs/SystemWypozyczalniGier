@@ -4,6 +4,9 @@
         border-collapse: separate;
         border-spacing: 0;
         width: 100%;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding-bottom: 10px;
         /* border-bottom: 2px solid #000;
         border-left: 2px solid #000;
         border-right: 2px solid #000; */
@@ -20,7 +23,7 @@
     }
     
     table tbody tr:nth-child(even) {
-        background-color: #b7c9e2;
+        background-color: #ffffff;
     }
 
     table tbody tr:nth-child(odd) {
@@ -38,13 +41,13 @@
         padding: 8px 16px;
         margin-bottom: 4px;
         text-decoration: none;
-        border: 1px solid #000;
+        border: 2px dashed transparent;
         border-radius: 4px;
-        transition: background-color 0.3s ease, color 0.3s ease;
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
 
     .light-red {
-        background-color: #FF7F7F;
+        background-color: #e84b56;
     }
 
     .light-orange {
@@ -52,21 +55,23 @@
     }
 
     .light-green {
-        background-color: #90EE90;
+        background-color: #94EC49;
     }
 
     .light-blue {
-        background-color: #add8e6;
+        background-color: #4994ec;
     }
 
     .button-link:hover {
         background-color: #fff;
+        border-color: #000;
         color: #fff;
     }
 
     .button-link img {
         width: 20px;
         height: 20px;
+        filter: opacity(0.5) drop-shadow(0 0 0 blue);
     }
 
     .form-table {
@@ -167,5 +172,5 @@
         margin: 6px;
         padding: 6px;
         border-radius: 8px;
-        background-color: #b7c9e2;
+        background-color: #94EC49;
       }
