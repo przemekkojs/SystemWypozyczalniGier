@@ -79,7 +79,7 @@ else
                                 </div>
                             </div>
                             <h5 class="no-margin-and-padding">Okres: 30 dni</h5>
-                            <form asp-action="RemoveFromCart" asp-route-id="@game.GameId" method="post" class="game-side-info-button">
+                            <form asp-action="RemoveFromCart" asp-route-id="@game.GameId" method="post" id="remove-button" class="game-side-info-button">
                                 <input type="image" src="~/images/trash.png">
                             </form>
                         </div>
