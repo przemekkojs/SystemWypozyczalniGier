@@ -1,8 +1,5 @@
-using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using Newtonsoft.Json;
 using SystemWypozyczalniGier.Database;
 using SystemWypozyczalniGier.Enumerations;
