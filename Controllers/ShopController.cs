@@ -13,6 +13,8 @@ namespace SystemWypozyczalniGier.Controllers
     {
         private readonly DatabaseContext _context;
 
+        public DatabaseContext Context => _context;
+
         public ShopController(DatabaseContext context)
         {
             _context = context;
@@ -39,8 +41,9 @@ namespace SystemWypozyczalniGier.Controllers
                 {
                     databaseContext = databaseContext
                         .Where(g => g.Categories
-                        .Select(c => c.Category)
-                        .Contains(category));
+                            .Select(c => c.Category)
+                            .Contains(category)
+                        );
 
                     ViewData["CategoryFilter"] += $"{category}, ";
                 }
@@ -57,6 +60,14 @@ namespace SystemWypozyczalniGier.Controllers
             };
 
             return View(model);
+        }
+
+        public List<Game> GetGames()
+        {
+            var query = from game in _context.Games
+                        select game;
+
+            return query.ToList();
         }
 
         

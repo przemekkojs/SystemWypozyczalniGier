@@ -8,6 +8,7 @@ namespace SystemWypozyczalniGier.Controllers
 {
     public class CartController : Controller
     {
+        public static readonly float PromoPriceFactor = .7f;
         private readonly DatabaseContext _context;
 
         public CartController(DatabaseContext context)
@@ -79,7 +80,7 @@ namespace SystemWypozyczalniGier.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private static double CalculateCartTotalPrice(List<Game> games)
+        public static double CalculateCartTotalPrice(List<Game> games)
         {
             if (games.Count == 0) return 0;
 
@@ -90,10 +91,12 @@ namespace SystemWypozyczalniGier.Controllers
             return totalPrice;
         }
 
-        private static (Game, double) GetChepestGameAndItsPromotionPrice(List<Game> games)
+        public static (Game?, double) GetChepestGameAndItsPromotionPrice(List<Game> games)
         {
+            if (games.Count == 0) return (null, 0);
+
             var game = games.MinBy(g => g.DiscountedPrice)!;
-            var price = game.DiscountedPrice * (games.Count >= 3 ? .7 : 1);
+            var price = game.DiscountedPrice * (games.Count >= 3 ? PromoPriceFactor : 1);
             return (game, price);
         }
     }

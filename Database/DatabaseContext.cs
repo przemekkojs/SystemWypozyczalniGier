@@ -16,7 +16,7 @@ namespace SystemWypozyczalniGier.Database
         public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<GameCategory> Categories { get; set; }
-        public DbSet<Game> Games { get; set; }
+        public virtual DbSet<Game> Games { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
         public DbSet<Rental> Rentals { get; set; }
         public DbSet<Review> Reviews { get; set; }
