@@ -68,9 +68,7 @@ namespace SystemWypozyczalniGier.Controllers
                         select game;
 
             return query.ToList();
-        }
-
-        
+        }        
 
         public async Task<IActionResult> Details(int? id)
         {
