@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {}
+    "C:\\Users\\UNITY\\Documents\\GitHub\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj": {}
   },
   "projects": {
-    "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj": {
+    "C:\\Users\\UNITY\\Documents\\GitHub\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
+        "projectUniqueName": "C:\\Users\\UNITY\\Documents\\GitHub\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj",
         "projectName": "SystemWypozyczalniGier",
-        "projectPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/SystemWypozyczalniGier.csproj",
-        "packagesPath": "/Users/mateusz/.nuget/packages/",
-        "outputPath": "/Users/mateusz/VisualStudioProjects/WypozyczalniaGier/SystemWypozyczalniGier/obj/",
+        "projectPath": "C:\\Users\\UNITY\\Documents\\GitHub\\SystemWypozyczalniGier\\SystemWypozyczalniGier.csproj",
+        "packagesPath": "C:\\Users\\UNITY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UNITY\\Documents\\GitHub\\SystemWypozyczalniGier\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mateusz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UNITY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,9 +48,23 @@
               "target": "Package",
               "version": "[2.1.152, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -72,9 +88,35 @@
               "target": "Package",
               "version": "[4.20.70, )"
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[121.0.6167.8500, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.6, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.6, )"
             }
           },
           "imports": [
@@ -88,6 +130,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

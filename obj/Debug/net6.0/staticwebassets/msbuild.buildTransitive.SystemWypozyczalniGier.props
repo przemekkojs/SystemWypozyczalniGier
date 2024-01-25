@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/SystemWypozyczalniGier.props" />
+  <Import Project="..\buildMultiTargeting\SystemWypozyczalniGier.props" />
 </Project>
